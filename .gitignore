@@ -1,0 +1,7 @@
+*-backups
+*.log
+fp-info-cache
+.vscode
+build
+*.bak
+*.lck
