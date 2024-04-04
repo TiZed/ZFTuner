@@ -2165,7 +2165,7 @@
 	)
 	(bus
 		(pts
-			(xy 35.56 109.22) (xy 54.61 109.22)
+			(xy 43.18 109.22) (xy 54.61 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3873,6 +3873,87 @@
 		)
 		(uuid "fffd4378-eca0-40f5-b169-e6657b0d7d5d")
 	)
+	(text "D=5.7mm\nl=5.2mm\nN=6\nd=0.65mm (22AWG)"
+		(exclude_from_sim no)
+		(at 118.11 158.242 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14d51b7a-6ca2-412c-8321-ee24bbcfd5e2")
+	)
+	(text "D=4.3mm\nl=4.55mm\nN=5\nd=0.65mm (22AWG)"
+		(exclude_from_sim no)
+		(at 90.17 158.242 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "37119605-633c-42b6-aa7f-40cc31725145")
+	)
+	(text "D=4.3mm\nl=3.25mm\nN=3\nd=0.65mm (22AWG)"
+		(exclude_from_sim no)
+		(at 61.976 157.988 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "76e37781-547e-4db9-b8f3-4593486868ba")
+	)
+	(text "T68-2 Core\nN=6\nd=0.65mm (22AWG)"
+		(exclude_from_sim no)
+		(at 145.796 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9fc0c3e-b42d-4adf-a16b-6713fb7a9909")
+	)
+	(text "D - Coil inner diameter\nl - Coil length\nN - Number of coil turns\nd - Magnetic wire diameter"
+		(exclude_from_sim no)
+		(at 90.678 172.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b16aa411-7760-4b5a-bd2e-aa61f2dd38ce")
+	)
+	(text "T68-2 Core\nN=28\nd=0.65mm (22AWG)"
+		(exclude_from_sim no)
+		(at 229.87 156.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b3c13661-9bb6-44a7-a509-4950e5b5dde7")
+	)
+	(text "T68-2 Core\nN=20\nd=0.65mm (22AWG)"
+		(exclude_from_sim no)
+		(at 202.184 156.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0a79e70-92df-44a9-9b8a-ad6c6366bb81")
+	)
+	(text "T68-2 Core\nN=13\nd=0.65mm (22AWG)"
+		(exclude_from_sim no)
+		(at 173.99 156.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fa3f23dd-2e51-4649-a04b-5499d4524a62")
+	)
 	(label "S2"
 		(at 212.09 111.76 180)
 		(fields_autoplaced yes)
@@ -4073,7 +4154,7 @@
 	)
 	(hierarchical_label "{S[1..4] R[1..4]}"
 		(shape input)
-		(at 35.56 109.22 180)
+		(at 43.18 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4205,10 +4286,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "06531ac9-c68c-4d80-afbf-0b3452429efb")
 		(property "Reference" "K301"
-			(at 62.1665 144.78 90)
+			(at 53.594 129.286 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,7 +4296,7 @@
 			)
 		)
 		(property "Value" "HF3F-L-12-1ZL2T"
-			(at 62.1665 147.32 90)
+			(at 60.706 144.526 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +4374,7 @@
 				)
 			)
 		)
-		(property "Value" "4uH"
+		(property "Value" "4.47uH"
 			(at 229.87 149.225 90)
 			(effects
 				(font
@@ -5003,7 +5083,7 @@
 				)
 			)
 		)
-		(property "Value" "2uH"
+		(property "Value" "2.3uH"
 			(at 201.93 149.225 90)
 			(effects
 				(font
@@ -5070,7 +5150,7 @@
 				)
 			)
 		)
-		(property "Value" "250nH"
+		(property "Value" "220nH"
 			(at 118.11 149.225 90)
 			(effects
 				(font
@@ -5128,10 +5208,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6c550766-e099-4887-84cd-43e1937d47a8")
 		(property "Reference" "K302"
-			(at 90.1065 144.78 90)
+			(at 81.534 129.286 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,7 +5218,7 @@
 			)
 		)
 		(property "Value" "HF3F-L-12-1ZL2T"
-			(at 90.1065 147.32 90)
+			(at 88.9 144.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5296,7 @@
 				)
 			)
 		)
-		(property "Value" "125nH"
+		(property "Value" "100nH"
 			(at 90.17 149.225 90)
 			(effects
 				(font
@@ -5342,10 +5421,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "764782bd-3d08-4c99-854e-56e2f939430a")
 		(property "Reference" "K304"
-			(at 145.9865 144.78 90)
+			(at 137.668 129.032 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5353,7 +5431,7 @@
 			)
 		)
 		(property "Value" "HF3F-L-12-1ZL2T"
-			(at 145.9865 147.32 90)
+			(at 145.288 144.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,10 +5500,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "79289930-7888-4ec3-81fb-4b849fef6242")
 		(property "Reference" "K307"
-			(at 229.8065 144.78 90)
+			(at 221.488 129.032 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +5510,7 @@
 			)
 		)
 		(property "Value" "HF3F-L-12-1ZL2T"
-			(at 229.8065 147.32 90)
+			(at 228.6 143.764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,10 +5719,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8646348f-c585-4c6a-97e5-15ad405dadc5")
 		(property "Reference" "K305"
-			(at 173.9265 144.78 90)
+			(at 165.608 129.032 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,7 +5729,7 @@
 			)
 		)
 		(property "Value" "HF3F-L-12-1ZL2T"
-			(at 173.9265 147.32 90)
+			(at 173.228 144.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5796,7 +5872,7 @@
 				)
 			)
 		)
-		(property "Value" "62.5nH"
+		(property "Value" "50.5nH"
 			(at 62.23 149.225 90)
 			(effects
 				(font
@@ -6226,10 +6302,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a8e73bd3-25fe-4dcf-9795-e3f3a3323fe3")
 		(property "Reference" "K306"
-			(at 201.8665 144.78 90)
+			(at 193.294 129.794 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +6312,7 @@
 			)
 		)
 		(property "Value" "HF3F-L-12-1ZL2T"
-			(at 201.8665 147.32 90)
+			(at 200.914 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7227,10 +7302,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e8a6532c-6a9b-48b2-aaac-7ccb16f25762")
 		(property "Reference" "K303"
-			(at 118.0465 144.78 90)
+			(at 109.728 129.032 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,7 +7312,7 @@
 			)
 		)
 		(property "Value" "HF3F-L-12-1ZL2T"
-			(at 118.0465 147.32 90)
+			(at 117.348 144.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
