@@ -4287,6 +4287,14 @@
 				)
 			)
 		)
+		(property "Part" "LTST-C190KGKT "
+			(at 239.522 38.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3337f7df-5639-4d6e-a518-99142d250fe6")
 		)

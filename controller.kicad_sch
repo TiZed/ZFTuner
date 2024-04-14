@@ -12604,6 +12604,14 @@
 				)
 			)
 		)
+		(property "Part" "LTST-C195TBJRKT"
+			(at 157.988 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7e96656e-6006-43be-8a5f-0a6077ef7141")
 		)
