@@ -1,11 +1,25 @@
 #MicroXplorer Configuration settings - do not modify
 ADC1.Channel-0\#ChannelRegularConversion=ADC_CHANNEL_1
+ADC1.Channel-1\#ChannelRegularConversion=ADC_CHANNEL_2
+ADC1.Channel-2\#ChannelRegularConversion=ADC_CHANNEL_VREFINT
+ADC1.Channel-3\#ChannelRegularConversion=ADC_CHANNEL_TEMPSENSOR_ADC1
 ADC1.CommonPathInternal=ADC_CHANNEL_VREFINT|ADC_CHANNEL_TEMPSENSOR_ADC1|null|null
-ADC1.IPParameters=Rank-0\#ChannelRegularConversion,Channel-0\#ChannelRegularConversion,SamplingTime-0\#ChannelRegularConversion,OffsetNumber-0\#ChannelRegularConversion,NbrOfConversionFlag,master,CommonPathInternal
+ADC1.EOCSelection=ADC_EOC_SEQ_CONV
+ADC1.IPParameters=Rank-0\#ChannelRegularConversion,Channel-0\#ChannelRegularConversion,SamplingTime-0\#ChannelRegularConversion,OffsetNumber-0\#ChannelRegularConversion,NbrOfConversionFlag,master,Rank-1\#ChannelRegularConversion,Channel-1\#ChannelRegularConversion,SamplingTime-1\#ChannelRegularConversion,OffsetNumber-1\#ChannelRegularConversion,NbrOfConversion,Rank-2\#ChannelRegularConversion,Channel-2\#ChannelRegularConversion,SamplingTime-2\#ChannelRegularConversion,OffsetNumber-2\#ChannelRegularConversion,Rank-3\#ChannelRegularConversion,Channel-3\#ChannelRegularConversion,SamplingTime-3\#ChannelRegularConversion,OffsetNumber-3\#ChannelRegularConversion,EOCSelection,CommonPathInternal
+ADC1.NbrOfConversion=4
 ADC1.NbrOfConversionFlag=1
 ADC1.OffsetNumber-0\#ChannelRegularConversion=ADC_OFFSET_NONE
+ADC1.OffsetNumber-1\#ChannelRegularConversion=ADC_OFFSET_NONE
+ADC1.OffsetNumber-2\#ChannelRegularConversion=ADC_OFFSET_NONE
+ADC1.OffsetNumber-3\#ChannelRegularConversion=ADC_OFFSET_NONE
 ADC1.Rank-0\#ChannelRegularConversion=1
+ADC1.Rank-1\#ChannelRegularConversion=2
+ADC1.Rank-2\#ChannelRegularConversion=3
+ADC1.Rank-3\#ChannelRegularConversion=4
 ADC1.SamplingTime-0\#ChannelRegularConversion=ADC_SAMPLETIME_2CYCLES_5
+ADC1.SamplingTime-1\#ChannelRegularConversion=ADC_SAMPLETIME_2CYCLES_5
+ADC1.SamplingTime-2\#ChannelRegularConversion=ADC_SAMPLETIME_2CYCLES_5
+ADC1.SamplingTime-3\#ChannelRegularConversion=ADC_SAMPLETIME_2CYCLES_5
 ADC1.master=1
 CAD.formats=
 CAD.pinconfig=
