@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Inductors Bank")
-		(date "2024-03-09")
+		(date "2024-04-14")
 		(rev "A0")
 		(company "TiZed")
 	)
@@ -4223,7 +4223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02928208-1d9b-420e-ae15-37c63f565347")
-		(property "Reference" "#PWR0315"
+		(property "Reference" "#PWR0505"
 			(at 91.44 95.25 0)
 			(effects
 				(font
@@ -4273,7 +4273,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "#PWR0315")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -4288,7 +4288,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06531ac9-c68c-4d80-afbf-0b3452429efb")
-		(property "Reference" "K301"
+		(property "Reference" "K501"
 			(at 53.594 129.286 90)
 			(effects
 				(font
@@ -4352,7 +4352,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "K301")
+					(reference "K501")
 					(unit 1)
 				)
 			)
@@ -4367,7 +4367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11b23504-ef3a-4987-8b10-3c9fdf7d9f2f")
-		(property "Reference" "L307"
+		(property "Reference" "L507"
 			(at 229.87 151.13 90)
 			(effects
 				(font
@@ -4419,7 +4419,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "L307")
+					(reference "L507")
 					(unit 1)
 				)
 			)
@@ -4434,7 +4434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12d085d0-107c-4faa-bb92-82e465c64ece")
-		(property "Reference" "C314"
+		(property "Reference" "C514"
 			(at 235.966 113.792 90)
 			(effects
 				(font
@@ -4488,7 +4488,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "C314")
+					(reference "C514")
 					(unit 1)
 				)
 			)
@@ -4503,7 +4503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17d65e89-9e8e-4636-b54b-6659a6c8a051")
-		(property "Reference" "C305"
+		(property "Reference" "C505"
 			(at 114.046 113.792 90)
 			(effects
 				(font
@@ -4557,7 +4557,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "C305")
+					(reference "C505")
 					(unit 1)
 				)
 			)
@@ -4572,7 +4572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19c8d2f8-489a-4304-98e4-ecd26ca3c0c3")
-		(property "Reference" "C302"
+		(property "Reference" "C502"
 			(at 68.326 113.792 90)
 			(effects
 				(font
@@ -4626,7 +4626,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "C302")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -4643,7 +4643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bf9c875-87e0-43ef-8076-996161b87581")
-		(property "Reference" "#PWR0312"
+		(property "Reference" "#PWR0508"
 			(at 200.66 95.25 0)
 			(effects
 				(font
@@ -4693,7 +4693,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "#PWR0312")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -4708,7 +4708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ce3ad7c-6b45-425c-b71c-5b3b8f32b3d4")
-		(property "Reference" "C308"
+		(property "Reference" "C508"
 			(at 152.146 113.792 90)
 			(effects
 				(font
@@ -4762,7 +4762,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "C308")
+					(reference "C508")
 					(unit 1)
 				)
 			)
@@ -4779,7 +4779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33d62d7f-e2ca-4e0d-be5f-8b80d7972eb2")
-		(property "Reference" "#PWR0313"
+		(property "Reference" "#PWR0507"
 			(at 190.5 95.25 0)
 			(effects
 				(font
@@ -4829,7 +4829,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "#PWR0313")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
@@ -4844,7 +4844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34ed3929-0be8-4e15-8038-20d925422b3b")
-		(property "Reference" "C306"
+		(property "Reference" "C506"
 			(at 124.206 113.792 90)
 			(effects
 				(font
@@ -4898,7 +4898,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "C306")
+					(reference "C506")
 					(unit 1)
 				)
 			)
@@ -4914,7 +4914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "355d8ffa-245b-4bd1-a83a-9fb41432ca81")
-		(property "Reference" "#PWR0310"
+		(property "Reference" "#PWR0502"
 			(at 101.6 60.96 0)
 			(effects
 				(font
@@ -4964,7 +4964,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "#PWR0310")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -4981,7 +4981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "554cfb7e-2b5d-4ab4-93d6-ea003dfe4e48")
-		(property "Reference" "Q303"
+		(property "Reference" "Q504"
 			(at 204.47 74.9299 0)
 			(effects
 				(font
@@ -5065,7 +5065,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "Q303")
+					(reference "Q504")
 					(unit 1)
 				)
 			)
@@ -5080,7 +5080,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57ec2bf2-e239-46df-853b-0ea4cb9639ba")
-		(property "Reference" "L306"
+		(property "Reference" "L506"
 			(at 201.93 151.13 90)
 			(effects
 				(font
@@ -5132,7 +5132,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "L306")
+					(reference "L506")
 					(unit 1)
 				)
 			)
@@ -5147,7 +5147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66f4696e-08ee-424f-9e71-3335aa40b84c")
-		(property "Reference" "L303"
+		(property "Reference" "L503"
 			(at 118.11 151.13 90)
 			(effects
 				(font
@@ -5199,7 +5199,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "L303")
+					(reference "L503")
 					(unit 1)
 				)
 			)
@@ -5214,7 +5214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c550766-e099-4887-84cd-43e1937d47a8")
-		(property "Reference" "K302"
+		(property "Reference" "K502"
 			(at 81.534 129.286 90)
 			(effects
 				(font
@@ -5278,7 +5278,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "K302")
+					(reference "K502")
 					(unit 1)
 				)
 			)
@@ -5293,7 +5293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6efd8d60-ec03-4e64-93ad-1d4f86ca77a5")
-		(property "Reference" "L302"
+		(property "Reference" "L502"
 			(at 90.17 151.13 90)
 			(effects
 				(font
@@ -5345,7 +5345,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "L302")
+					(reference "L502")
 					(unit 1)
 				)
 			)
@@ -5360,7 +5360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7374f971-55f2-43ef-b087-9374d8add0ea")
-		(property "Reference" "L305"
+		(property "Reference" "L505"
 			(at 173.99 151.13 90)
 			(effects
 				(font
@@ -5412,7 +5412,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "L305")
+					(reference "L505")
 					(unit 1)
 				)
 			)
@@ -5427,7 +5427,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "764782bd-3d08-4c99-854e-56e2f939430a")
-		(property "Reference" "K304"
+		(property "Reference" "K504"
 			(at 137.668 129.032 90)
 			(effects
 				(font
@@ -5491,7 +5491,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "K304")
+					(reference "K504")
 					(unit 1)
 				)
 			)
@@ -5506,7 +5506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79289930-7888-4ec3-81fb-4b849fef6242")
-		(property "Reference" "K307"
+		(property "Reference" "K507"
 			(at 221.488 129.032 90)
 			(effects
 				(font
@@ -5570,7 +5570,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "K307")
+					(reference "K507")
 					(unit 1)
 				)
 			)
@@ -5587,7 +5587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "808b8990-fbde-42b4-8cae-e81d35e98e0d")
-		(property "Reference" "R305"
+		(property "Reference" "R506"
 			(at 187.96 81.2799 0)
 			(effects
 				(font
@@ -5641,7 +5641,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "R305")
+					(reference "R506")
 					(unit 1)
 				)
 			)
@@ -5658,7 +5658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "820d2f04-bd5e-4b45-9616-81d373fa6f1f")
-		(property "Reference" "R301"
+		(property "Reference" "R501"
 			(at 198.12 59.6899 0)
 			(effects
 				(font
@@ -5712,7 +5712,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "R301")
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -5727,7 +5727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8646348f-c585-4c6a-97e5-15ad405dadc5")
-		(property "Reference" "K305"
+		(property "Reference" "K505"
 			(at 165.608 129.032 90)
 			(effects
 				(font
@@ -5791,7 +5791,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "K305")
+					(reference "K505")
 					(unit 1)
 				)
 			)
@@ -5807,7 +5807,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "869924a2-c01e-4ee8-8c50-47b16714fae2")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR0503"
 			(at 112.776 60.96 0)
 			(effects
 				(font
@@ -5857,7 +5857,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "#PWR0309")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -5872,7 +5872,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8738706a-6f3c-48e6-ad3c-baebbbd7fb25")
-		(property "Reference" "L301"
+		(property "Reference" "L501"
 			(at 62.23 151.13 90)
 			(effects
 				(font
@@ -5924,7 +5924,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "L301")
+					(reference "L501")
 					(unit 1)
 				)
 			)
@@ -5939,7 +5939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9147ea33-d913-4f86-88b7-9a59a98dd536")
-		(property "Reference" "C307"
+		(property "Reference" "C507"
 			(at 141.986 113.792 90)
 			(effects
 				(font
@@ -5993,7 +5993,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "C307")
+					(reference "C507")
 					(unit 1)
 				)
 			)
@@ -6008,7 +6008,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91e5a890-6529-43e2-bfea-849de3f60c2e")
-		(property "Reference" "C303"
+		(property "Reference" "C503"
 			(at 86.106 113.792 90)
 			(effects
 				(font
@@ -6062,7 +6062,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "C303")
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -6078,7 +6078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d4272aa-d9bd-4c30-a650-396e3d925459")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR0501"
 			(at 200.66 59.69 0)
 			(effects
 				(font
@@ -6128,7 +6128,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "#PWR0308")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -6143,7 +6143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a48eae46-2f6a-4b23-a4f1-41599eb204c4")
-		(property "Reference" "C309"
+		(property "Reference" "C509"
 			(at 169.926 113.792 90)
 			(effects
 				(font
@@ -6197,7 +6197,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "C309")
+					(reference "C509")
 					(unit 1)
 				)
 			)
@@ -6214,7 +6214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5b7ec94-3296-4d1f-9810-134934659dda")
-		(property "Reference" "Q302"
+		(property "Reference" "Q502"
 			(at 215.646 66.0399 0)
 			(effects
 				(font
@@ -6298,7 +6298,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "Q302")
+					(reference "Q502")
 					(unit 1)
 				)
 			)
@@ -6313,7 +6313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8e73bd3-25fe-4dcf-9795-e3f3a3323fe3")
-		(property "Reference" "K306"
+		(property "Reference" "K506"
 			(at 193.294 129.794 90)
 			(effects
 				(font
@@ -6377,7 +6377,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "K306")
+					(reference "K506")
 					(unit 1)
 				)
 			)
@@ -6394,7 +6394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a972bd18-65f3-4ab1-bbd5-9e83b65eb4c6")
-		(property "Reference" "Q301"
+		(property "Reference" "Q501"
 			(at 116.586 66.0399 0)
 			(effects
 				(font
@@ -6478,7 +6478,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "Q301")
+					(reference "Q501")
 					(unit 1)
 				)
 			)
@@ -6493,7 +6493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b547584f-8dbf-4b2b-bc3b-f8a5d6dcb72e")
-		(property "Reference" "C313"
+		(property "Reference" "C513"
 			(at 225.806 113.792 90)
 			(effects
 				(font
@@ -6547,7 +6547,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "C313")
+					(reference "C513")
 					(unit 1)
 				)
 			)
@@ -6564,7 +6564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdf660ad-9f22-4fa9-8499-7cc1d30e4c99")
-		(property "Reference" "R304"
+		(property "Reference" "R503"
 			(at 86.36 71.12 90)
 			(effects
 				(font
@@ -6616,7 +6616,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "R304")
+					(reference "R503")
 					(unit 1)
 				)
 			)
@@ -6631,7 +6631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c10b065d-26ee-4ca6-945d-433ae3528581")
-		(property "Reference" "C312"
+		(property "Reference" "C512"
 			(at 208.026 113.792 90)
 			(effects
 				(font
@@ -6685,7 +6685,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "C312")
+					(reference "C512")
 					(unit 1)
 				)
 			)
@@ -6700,7 +6700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c95b45fd-7a2d-4efb-8d2d-42c35ca136aa")
-		(property "Reference" "C301"
+		(property "Reference" "C501"
 			(at 58.166 113.792 90)
 			(effects
 				(font
@@ -6754,7 +6754,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "C301")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -6771,7 +6771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d11c6fdf-8774-4add-bd36-f1db1cf38b22")
-		(property "Reference" "#PWR0314"
+		(property "Reference" "#PWR0506"
 			(at 101.6 95.25 0)
 			(effects
 				(font
@@ -6821,7 +6821,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "#PWR0314")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -6836,7 +6836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5745c27-cd7c-4fe9-9586-0f0d7ad49ee8")
-		(property "Reference" "C310"
+		(property "Reference" "C510"
 			(at 180.086 113.792 90)
 			(effects
 				(font
@@ -6890,7 +6890,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "C310")
+					(reference "C510")
 					(unit 1)
 				)
 			)
@@ -6905,7 +6905,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcd54484-46c9-445e-b24e-fe06c28154cf")
-		(property "Reference" "C304"
+		(property "Reference" "C504"
 			(at 96.266 113.792 90)
 			(effects
 				(font
@@ -6959,7 +6959,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "C304")
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -6976,7 +6976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddcd1b85-c602-46e1-84b5-d0cbdc533ae6")
-		(property "Reference" "R302"
+		(property "Reference" "R502"
 			(at 99.06 60.9599 0)
 			(effects
 				(font
@@ -7030,7 +7030,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "R302")
+					(reference "R502")
 					(unit 1)
 				)
 			)
@@ -7047,7 +7047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de397daa-f534-43e1-b6a8-4b7da9ad0bc5")
-		(property "Reference" "R303"
+		(property "Reference" "R504"
 			(at 185.42 71.12 90)
 			(effects
 				(font
@@ -7099,7 +7099,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "R303")
+					(reference "R504")
 					(unit 1)
 				)
 			)
@@ -7116,7 +7116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df36c494-fc48-4f83-958d-89154b1a5093")
-		(property "Reference" "R306"
+		(property "Reference" "R505"
 			(at 88.9 81.2799 0)
 			(effects
 				(font
@@ -7170,7 +7170,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "R306")
+					(reference "R505")
 					(unit 1)
 				)
 			)
@@ -7185,7 +7185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfaaa6fe-ca4b-45b9-a203-55696ec9446b")
-		(property "Reference" "C311"
+		(property "Reference" "C511"
 			(at 197.866 113.792 90)
 			(effects
 				(font
@@ -7239,7 +7239,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "C311")
+					(reference "C511")
 					(unit 1)
 				)
 			)
@@ -7255,7 +7255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e47d74d2-0013-4152-a753-1e701d28d18d")
-		(property "Reference" "#PWR0311"
+		(property "Reference" "#PWR0504"
 			(at 211.836 60.96 0)
 			(effects
 				(font
@@ -7305,7 +7305,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "#PWR0311")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -7320,7 +7320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8a6532c-6a9b-48b2-aaac-7ccb16f25762")
-		(property "Reference" "K303"
+		(property "Reference" "K503"
 			(at 109.728 129.032 90)
 			(effects
 				(font
@@ -7384,7 +7384,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "K303")
+					(reference "K503")
 					(unit 1)
 				)
 			)
@@ -7399,7 +7399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee60b0f4-fd07-44ec-9f9e-8241a07dac7b")
-		(property "Reference" "L304"
+		(property "Reference" "L504"
 			(at 146.05 151.13 90)
 			(effects
 				(font
@@ -7451,7 +7451,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "L304")
+					(reference "L504")
 					(unit 1)
 				)
 			)
@@ -7468,7 +7468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdde7924-5249-40c2-8882-32cb513d1c52")
-		(property "Reference" "Q304"
+		(property "Reference" "Q503"
 			(at 105.41 74.9299 0)
 			(effects
 				(font
@@ -7552,7 +7552,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/54af2732-df3a-4e21-be89-08b1cbfb23cb"
-					(reference "Q304")
+					(reference "Q503")
 					(unit 1)
 				)
 			)

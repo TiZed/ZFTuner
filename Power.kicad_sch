@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "aa04875c-914f-4b7e-bf9d-72e7bc4a70ee")
 	(paper "A4")
+	(title_block
+		(title "Power")
+		(date "2024-04-14")
+		(rev "A0")
+		(company "TiZed")
+	)
 	(lib_symbols
 		(symbol "Device:C_Polarized_Small_US"
 			(pin_numbers hide)
@@ -2453,96 +2459,96 @@
 		)
 	)
 	(junction
-		(at 111.76 76.2)
+		(at 152.4 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08003677-4188-440c-81d5-848773cf17b0")
 	)
 	(junction
-		(at 124.46 41.91)
+		(at 163.83 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d40a572-b9e8-41be-a3a3-77504a0020e2")
 	)
 	(junction
-		(at 124.46 31.75)
+		(at 163.83 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41b080a1-4858-473f-a3e7-9645911f7abf")
 	)
 	(junction
-		(at 83.82 31.75)
+		(at 123.19 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f03d1fc-dd3f-437f-9344-d5649c22facc")
 	)
 	(junction
-		(at 38.1 31.75)
+		(at 77.47 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ef2b828-d05a-4341-9812-e89ffd30bc1f")
 	)
 	(junction
-		(at 48.26 31.75)
+		(at 87.63 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78ff5eec-ed63-4b18-8833-f4208bdd3f2a")
 	)
 	(junction
-		(at 116.84 76.2)
+		(at 157.48 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a9749b8-dc8c-49ee-8b19-10208874febd")
 	)
 	(junction
-		(at 138.43 31.75)
+		(at 177.8 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94efb099-a7f3-4ab3-90ff-b5aa3eabbb86")
 	)
 	(junction
-		(at 152.4 76.2)
+		(at 193.04 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "965032e2-1f76-4cdf-ada0-3181ffc89055")
 	)
 	(junction
-		(at 88.9 31.75)
+		(at 128.27 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "985c1e9c-6155-4071-a525-977474303d03")
 	)
 	(junction
-		(at 73.66 81.28)
+		(at 114.3 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a08b6dcf-15a9-4478-bddb-51eda3a17873")
 	)
 	(junction
-		(at 104.14 76.2)
+		(at 144.78 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dacf0e21-5bdc-45dc-aa47-ca3430698ce1")
 	)
 	(junction
-		(at 102.87 31.75)
+		(at 142.24 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0d9e3c6-400a-48cb-b968-c5ab38c68bba")
 	)
 	(junction
-		(at 113.03 31.75)
+		(at 152.4 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe629564-e918-493d-a0ef-4154e1fff2a5")
 	)
 	(no_connect
-		(at 96.52 81.28)
+		(at 137.16 106.68)
 		(uuid "8725723f-27e7-4493-9386-137e9ed8d983")
 	)
 	(wire
 		(pts
-			(xy 83.82 36.83) (xy 83.82 31.75)
+			(xy 123.19 60.96) (xy 123.19 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2552,7 +2558,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 73.66) (xy 78.74 76.2)
+			(xy 119.38 99.06) (xy 119.38 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2562,7 +2568,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 39.37) (xy 124.46 41.91)
+			(xy 163.83 63.5) (xy 163.83 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2572,7 +2578,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 46.99) (xy 63.5 49.53)
+			(xy 102.87 71.12) (xy 102.87 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2592,7 +2598,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 76.2) (xy 111.76 73.66)
+			(xy 152.4 101.6) (xy 152.4 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2602,7 +2608,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 76.2) (xy 152.4 73.66)
+			(xy 193.04 101.6) (xy 193.04 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2612,7 +2618,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 31.75) (xy 124.46 31.75)
+			(xy 152.4 55.88) (xy 163.83 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2622,7 +2628,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 81.28) (xy 116.84 81.28)
+			(xy 160.02 106.68) (xy 157.48 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2632,7 +2638,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 86.36) (xy 137.16 88.9)
+			(xy 177.8 111.76) (xy 177.8 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2642,7 +2648,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 29.21) (xy 38.1 31.75)
+			(xy 77.47 53.34) (xy 77.47 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2652,7 +2658,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 29.21) (xy 138.43 31.75)
+			(xy 177.8 53.34) (xy 177.8 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2662,7 +2668,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 31.75) (xy 138.43 34.29)
+			(xy 177.8 55.88) (xy 177.8 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2672,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 31.75) (xy 48.26 31.75)
+			(xy 77.47 55.88) (xy 87.63 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2682,7 +2688,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 81.28) (xy 127 81.28)
+			(xy 165.1 106.68) (xy 167.64 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2692,7 +2698,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 76.2) (xy 111.76 76.2)
+			(xy 144.78 101.6) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2702,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 31.75) (xy 92.71 31.75)
+			(xy 128.27 55.88) (xy 132.08 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2712,7 +2718,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 71.12) (xy 27.94 66.04)
+			(xy 67.31 95.25) (xy 67.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2722,7 +2728,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 41.91) (xy 120.65 49.53)
+			(xy 160.02 66.04) (xy 160.02 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2732,7 +2738,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 66.04) (xy 38.1 66.04)
+			(xy 74.93 90.17) (xy 77.47 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2742,7 +2748,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 76.2) (xy 81.28 76.2)
+			(xy 119.38 101.6) (xy 121.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2752,7 +2758,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 31.75) (xy 102.87 31.75)
+			(xy 137.16 55.88) (xy 142.24 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2762,7 +2768,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 49.53) (xy 124.46 50.8)
+			(xy 163.83 73.66) (xy 163.83 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2772,7 +2778,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 76.2) (xy 111.76 76.2)
+			(xy 157.48 101.6) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2782,7 +2788,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 41.91) (xy 53.34 41.91)
+			(xy 87.63 66.04) (xy 92.71 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2792,7 +2798,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 31.75) (xy 124.46 34.29)
+			(xy 163.83 55.88) (xy 163.83 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2802,7 +2808,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 36.83) (xy 83.82 36.83)
+			(xy 120.65 60.96) (xy 123.19 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2812,7 +2818,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 78.74) (xy 101.6 81.28)
+			(xy 142.24 104.14) (xy 142.24 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2822,7 +2828,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 31.75) (xy 88.9 31.75)
+			(xy 123.19 55.88) (xy 128.27 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2832,7 +2838,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 76.2) (xy 152.4 78.74)
+			(xy 193.04 101.6) (xy 193.04 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2842,7 +2848,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 81.28) (xy 116.84 76.2)
+			(xy 157.48 106.68) (xy 157.48 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2852,7 +2858,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 31.75) (xy 83.82 31.75)
+			(xy 113.03 55.88) (xy 123.19 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2862,7 +2868,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 76.2) (xy 152.4 76.2)
+			(xy 187.96 101.6) (xy 193.04 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2872,7 +2878,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 83.82) (xy 111.76 86.36)
+			(xy 152.4 109.22) (xy 152.4 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2882,7 +2888,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 41.91) (xy 124.46 44.45)
+			(xy 163.83 66.04) (xy 163.83 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2892,7 +2898,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 31.75) (xy 113.03 31.75)
+			(xy 142.24 55.88) (xy 152.4 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2902,7 +2908,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 66.04) (xy 104.14 68.58)
+			(xy 144.78 91.44) (xy 144.78 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2912,7 +2918,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 76.2) (xy 116.84 76.2)
+			(xy 167.64 101.6) (xy 157.48 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2922,7 +2928,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 66.04) (xy 38.1 71.12)
+			(xy 77.47 90.17) (xy 77.47 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2932,7 +2938,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 49.53) (xy 77.47 41.91)
+			(xy 116.84 73.66) (xy 116.84 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2942,7 +2948,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 39.37) (xy 38.1 41.91)
+			(xy 77.47 63.5) (xy 77.47 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2952,7 +2958,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 36.83) (xy 76.2 36.83)
+			(xy 113.03 60.96) (xy 115.57 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2962,7 +2968,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 39.37) (xy 102.87 41.91)
+			(xy 142.24 63.5) (xy 142.24 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2972,7 +2978,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 31.75) (xy 88.9 34.29)
+			(xy 128.27 55.88) (xy 128.27 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2982,7 +2988,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 78.74) (xy 101.6 78.74)
+			(xy 137.16 104.14) (xy 142.24 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2992,7 +2998,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 86.36) (xy 101.6 88.9)
+			(xy 142.24 111.76) (xy 142.24 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3002,7 +3008,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 49.53) (xy 77.47 49.53)
+			(xy 160.02 73.66) (xy 116.84 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3012,7 +3018,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 39.37) (xy 113.03 41.91)
+			(xy 152.4 63.5) (xy 152.4 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3022,7 +3028,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 31.75) (xy 102.87 34.29)
+			(xy 142.24 55.88) (xy 142.24 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3032,7 +3038,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 73.66) (xy 104.14 76.2)
+			(xy 144.78 99.06) (xy 144.78 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3042,7 +3048,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 31.75) (xy 113.03 34.29)
+			(xy 152.4 55.88) (xy 152.4 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3052,7 +3058,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 83.82) (xy 152.4 86.36)
+			(xy 193.04 109.22) (xy 193.04 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3072,7 +3078,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 76.2) (xy 111.76 78.74)
+			(xy 152.4 101.6) (xy 152.4 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3082,7 +3088,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 39.37) (xy 138.43 41.91)
+			(xy 177.8 63.5) (xy 177.8 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3092,7 +3098,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 81.28) (xy 73.66 83.82)
+			(xy 114.3 106.68) (xy 114.3 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3102,7 +3108,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 73.66) (xy 73.66 81.28)
+			(xy 114.3 99.06) (xy 114.3 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3112,7 +3118,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 41.91) (xy 73.66 41.91)
+			(xy 116.84 66.04) (xy 113.03 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3122,7 +3128,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 31.75) (xy 53.34 31.75)
+			(xy 87.63 55.88) (xy 92.71 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3132,7 +3138,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 86.36) (xy 88.9 88.9)
+			(xy 129.54 111.76) (xy 129.54 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3142,7 +3148,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 39.37) (xy 88.9 41.91)
+			(xy 128.27 63.5) (xy 128.27 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3152,7 +3158,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 81.28) (xy 73.66 81.28)
+			(xy 121.92 106.68) (xy 114.3 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3162,7 +3168,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 41.91) (xy 138.43 41.91)
+			(xy 163.83 66.04) (xy 177.8 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3172,7 +3178,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 66.04) (xy 30.48 66.04)
+			(xy 67.31 90.17) (xy 69.85 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3182,7 +3188,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 76.2) (xy 104.14 76.2)
+			(xy 137.16 101.6) (xy 144.78 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3192,7 +3198,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 41.91) (xy 120.65 41.91)
+			(xy 163.83 66.04) (xy 160.02 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3202,7 +3208,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 41.91) (xy 48.26 31.75)
+			(xy 87.63 66.04) (xy 87.63 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3212,7 +3218,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 31.75) (xy 38.1 34.29)
+			(xy 77.47 55.88) (xy 77.47 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3222,7 +3228,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 88.9) (xy 73.66 91.44)
+			(xy 114.3 114.3) (xy 114.3 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3242,7 +3248,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 31.75) (xy 138.43 31.75)
+			(xy 163.83 55.88) (xy 177.8 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3252,7 +3258,7 @@
 	)
 	(text_box "BD2243G doubles as a power switch, VBUS from USB is only used if +5V is not available."
 		(exclude_from_sim no)
-		(at 76.2 99.06 0)
+		(at 116.84 124.46 0)
 		(size 31.496 12.192)
 		(stroke
 			(width 0)
@@ -3271,7 +3277,7 @@
 	)
 	(text "FB Resistors:\nFor 3.3V: 51k & 16.2k\nFor 5.0V: 88.7k & 16.9k"
 		(exclude_from_sim no)
-		(at 137.16 52.324 0)
+		(at 176.53 76.454 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3282,7 +3288,7 @@
 	)
 	(text "Vpp: 6..52V"
 		(exclude_from_sim no)
-		(at 29.972 29.972 0)
+		(at 69.342 54.102 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3291,7 +3297,7 @@
 		(uuid "f245acb2-0d4a-4345-9634-ce5cdf7b85d1")
 	)
 	(label "5V_SW"
-		(at 76.2 31.75 0)
+		(at 115.57 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3302,7 +3308,7 @@
 		(uuid "48450613-bf65-4e26-a269-822cc4921d7a")
 	)
 	(label "5V_FB"
-		(at 78.74 49.53 0)
+		(at 118.11 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3314,15 +3320,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 73.66 73.66 0)
+		(at 114.3 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0592895b-f168-4930-b5f6-efc69a8340d0")
-		(property "Reference" "#PWR0612"
-			(at 73.66 77.47 0)
+		(property "Reference" "#PWR0614"
+			(at 114.3 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +3337,7 @@
 			)
 		)
 		(property "Value" "+5.4V"
-			(at 72.644 68.834 0)
+			(at 113.284 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +3345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 73.66 0)
+			(at 114.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 73.66 0)
+			(at 114.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,7 +3363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 73.66 73.66 0)
+			(at 114.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3377,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0612")
+					(reference "#PWR0614")
 					(unit 1)
 				)
 			)
@@ -3379,7 +3385,7 @@
 	)
 	(symbol
 		(lib_id "Power_Management:BD2243G")
-		(at 88.9 78.74 0)
+		(at 129.54 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3388,7 +3394,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f8bf77e-4e11-401d-9386-a0dbbec75bfd")
 		(property "Reference" "U602"
-			(at 88.9 68.58 0)
+			(at 129.54 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +3402,7 @@
 			)
 		)
 		(property "Value" "BD2243G"
-			(at 88.9 71.12 0)
+			(at 129.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3410,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm"
-			(at 88.9 99.568 0)
+			(at 129.54 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3419,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/power_switch/bd2242g-e.pdf"
-			(at 89.154 97.536 0)
+			(at 129.794 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3428,7 @@
 			)
 		)
 		(property "Description" "Adjustable current limit high side switch IC, 2.8..5.5V, 0.2..1.7A"
-			(at 88.9 95.504 0)
+			(at 129.54 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +3465,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 102.87 36.83 180)
+		(at 142.24 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3468,7 +3474,7 @@
 		(fields_autoplaced yes)
 		(uuid "11d1b939-c63c-4887-ab8a-3323c52151d1")
 		(property "Reference" "C603"
-			(at 105.41 35.5599 0)
+			(at 144.78 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,7 +3483,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 105.41 38.0999 0)
+			(at 144.78 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3492,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 102.87 36.83 0)
+			(at 142.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +3501,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 36.83 0)
+			(at 142.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,7 +3510,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 36.83 0)
+			(at 142.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,7 +3535,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 104.14 66.04 0)
+		(at 144.78 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3537,8 +3543,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "177b6f83-fdb5-48c7-bcae-d79681ad7fa5")
-		(property "Reference" "#PWR0609"
-			(at 104.14 69.85 0)
+		(property "Reference" "#PWR0611"
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +3553,7 @@
 			)
 		)
 		(property "Value" "+5.4V"
-			(at 104.14 60.96 0)
+			(at 144.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +3561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 66.04 0)
+			(at 144.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,7 +3570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 66.04 0)
+			(at 144.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +3579,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 104.14 66.04 0)
+			(at 144.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3593,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0609")
+					(reference "#PWR0611")
 					(unit 1)
 				)
 			)
@@ -3595,15 +3601,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 73.66 86.36 180)
+		(at 114.3 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "17cb81a1-68fe-487e-8282-10d167753a42")
-		(property "Reference" "R605"
-			(at 69.342 85.344 0)
+		(property "Reference" "R606"
+			(at 109.982 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +3617,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 69.85 87.884 0)
+			(at 110.49 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,7 +3625,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 73.66 86.36 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,7 +3634,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 86.36 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,7 +3643,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 73.66 86.36 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +3660,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "R605")
+					(reference "R606")
 					(unit 1)
 				)
 			)
@@ -3662,7 +3668,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 152.4 86.36 0)
+		(at 193.04 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3670,8 +3676,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bd28daf-53c3-4d4a-ae8a-bea535505ae2")
-		(property "Reference" "#PWR0617"
-			(at 152.4 92.71 0)
+		(property "Reference" "#PWR0619"
+			(at 193.04 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +3686,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 152.4 90.17 0)
+			(at 193.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +3694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 86.36 0)
+			(at 193.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +3703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 86.36 0)
+			(at 193.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3712,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 152.4 86.36 0)
+			(at 193.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +3726,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0617")
+					(reference "#PWR0619")
 					(unit 1)
 				)
 			)
@@ -3728,7 +3734,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 102.87 41.91 0)
+		(at 142.24 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3736,8 +3742,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24a46609-ec92-4234-b412-812617702a96")
-		(property "Reference" "#PWR0605"
-			(at 102.87 48.26 0)
+		(property "Reference" "#PWR0606"
+			(at 142.24 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3746,7 +3752,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 102.87 45.72 0)
+			(at 142.24 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,7 +3760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 41.91 0)
+			(at 142.24 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +3769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 41.91 0)
+			(at 142.24 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,7 +3778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 102.87 41.91 0)
+			(at 142.24 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3792,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0605")
+					(reference "#PWR0606")
 					(unit 1)
 				)
 			)
@@ -3794,7 +3800,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 111.76 73.66 0)
+		(at 152.4 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3802,8 +3808,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "285c7e17-9bfe-44ca-8100-f3756e815c23")
-		(property "Reference" "#PWR0614"
-			(at 111.76 77.47 0)
+		(property "Reference" "#PWR0616"
+			(at 152.4 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3818,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 111.76 68.58 0)
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +3826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 73.66 0)
+			(at 152.4 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +3835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 73.66 0)
+			(at 152.4 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,7 +3844,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 111.76 73.66 0)
+			(at 152.4 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,7 +3858,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0614")
+					(reference "#PWR0616")
 					(unit 1)
 				)
 			)
@@ -3860,15 +3866,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small_Filled")
-		(at 104.14 71.12 90)
+		(at 144.78 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "322141aa-a47b-4bb1-8dcf-c6aaaab71dfa")
-		(property "Reference" "D602"
-			(at 97.536 66.802 90)
+		(property "Reference" "D603"
+			(at 138.176 92.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +3883,7 @@
 			)
 		)
 		(property "Value" "B0520W"
-			(at 94.742 64.262 90)
+			(at 135.382 89.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3886,7 +3892,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 104.14 71.12 90)
+			(at 144.78 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,7 +3901,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 71.12 90)
+			(at 144.78 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,7 +3910,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol, filled shape"
-			(at 104.14 71.12 0)
+			(at 144.78 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +3919,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 104.14 71.12 0)
+			(at 144.78 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +3928,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 104.14 71.12 0)
+			(at 144.78 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +3945,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "D602")
+					(reference "D603")
 					(unit 1)
 				)
 			)
@@ -3947,7 +3953,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 124.46 36.83 180)
+		(at 163.83 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3955,7 +3961,7 @@
 		(dnp no)
 		(uuid "3a5031b5-418b-4fc2-9e86-e45d78e847ae")
 		(property "Reference" "R601"
-			(at 127 35.5599 0)
+			(at 166.37 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,7 +3970,7 @@
 			)
 		)
 		(property "Value" "91k"
-			(at 127 38.0999 0)
+			(at 166.37 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +3979,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 124.46 36.83 0)
+			(at 163.83 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +3988,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 36.83 0)
+			(at 163.83 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +3997,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 36.83 0)
+			(at 163.83 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +4006,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 134.62 38.1 0)
+			(at 173.99 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,15 +4030,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 101.6 83.82 180)
+		(at 142.24 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3ba1b700-00b6-4fee-81c8-28d4e78cda24")
-		(property "Reference" "R604"
-			(at 97.536 85.344 0)
+		(property "Reference" "R605"
+			(at 138.176 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4040,7 +4046,7 @@
 			)
 		)
 		(property "Value" "41k"
-			(at 98.552 88.138 0)
+			(at 139.192 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4048,7 +4054,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 101.6 83.82 0)
+			(at 142.24 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4057,7 +4063,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 83.82 0)
+			(at 142.24 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4066,7 +4072,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 101.6 83.82 0)
+			(at 142.24 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +4089,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "R604")
+					(reference "R605")
 					(unit 1)
 				)
 			)
@@ -4098,7 +4104,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48c7d54f-2fb1-435f-9e58-b30eb3c99462")
-		(property "Reference" "#PWR0623"
+		(property "Reference" "#PWR0603"
 			(at 228.6 34.29 0)
 			(effects
 				(font
@@ -4148,7 +4154,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0623")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -4156,15 +4162,15 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 78.74 73.66 0)
+		(at 119.38 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4ca96d9c-e82a-4e72-8742-4e59107c7a44")
-		(property "Reference" "#PWR0613"
-			(at 78.74 77.47 0)
+		(property "Reference" "#PWR0615"
+			(at 119.38 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4173,7 +4179,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 80.518 68.834 0)
+			(at 121.158 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +4187,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 73.66 0)
+			(at 119.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,7 +4196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 73.66 0)
+			(at 119.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +4205,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 78.74 73.66 0)
+			(at 119.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,7 +4219,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0613")
+					(reference "#PWR0615")
 					(unit 1)
 				)
 			)
@@ -4228,7 +4234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b465985-4450-429a-b4a1-4799e830657b")
-		(property "Reference" "D603"
+		(property "Reference" "D601"
 			(at 231.14 34.2264 90)
 			(effects
 				(font
@@ -4290,7 +4296,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "D603")
+					(reference "D601")
 					(unit 1)
 				)
 			)
@@ -4298,7 +4304,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 137.16 88.9 0)
+		(at 177.8 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4306,8 +4312,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dbe8ede-ce7c-42a8-a227-a3d16f587c6b")
-		(property "Reference" "#PWR0620"
-			(at 137.16 95.25 0)
+		(property "Reference" "#PWR0622"
+			(at 177.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4322,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 137.16 92.71 0)
+			(at 177.8 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +4330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 88.9 0)
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +4339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 88.9 0)
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,7 +4348,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 137.16 88.9 0)
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,7 +4362,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0620")
+					(reference "#PWR0622")
 					(unit 1)
 				)
 			)
@@ -4364,7 +4370,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:HT7463A")
-		(at 63.5 36.83 0)
+		(at 102.87 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4373,7 +4379,7 @@
 		(fields_autoplaced yes)
 		(uuid "611d5946-b588-4752-a440-0dcad56d1704")
 		(property "Reference" "U601"
-			(at 63.5 24.13 0)
+			(at 102.87 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +4387,7 @@
 			)
 		)
 		(property "Value" "HT7463A"
-			(at 63.5 26.67 0)
+			(at 102.87 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4395,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 66.04 46.99 0)
+			(at 105.41 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +4406,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.holtek.com/documents/10179/116711/HT7463A_Bv160.pdf"
-			(at 63.5 36.83 0)
+			(at 102.87 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +4415,7 @@
 			)
 		)
 		(property "Description" "600mA High-Efficiency Step-Down DC-DC Converter, 4.5-52V input voltage, adjustable output voltage, SOT-23-6"
-			(at 63.5 36.83 0)
+			(at 102.87 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,7 +4424,7 @@
 			)
 		)
 		(property "Manufacturer" "Holtek"
-			(at 63.5 36.83 0)
+			(at 102.87 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +4433,7 @@
 			)
 		)
 		(property "Partnumber" "HT7463A"
-			(at 63.5 36.83 0)
+			(at 102.87 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +4470,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 38.1 29.21 0)
+		(at 77.47 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4473,7 +4479,7 @@
 		(fields_autoplaced yes)
 		(uuid "611fd316-6657-45ea-acab-0edc8e3be6a0")
 		(property "Reference" "#PWR0601"
-			(at 38.1 33.02 0)
+			(at 77.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +4488,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 38.1 24.13 0)
+			(at 77.47 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 29.21 0)
+			(at 77.47 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 29.21 0)
+			(at 77.47 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4514,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 38.1 29.21 0)
+			(at 77.47 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4536,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 71.12 0)
+		(at 77.47 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4538,8 +4544,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67508ac8-73a4-4bd5-8b7b-aa044d9ea3db")
-		(property "Reference" "#PWR0611"
-			(at 38.1 77.47 0)
+		(property "Reference" "#PWR0613"
+			(at 77.47 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +4554,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 76.2 0)
+			(at 77.47 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 71.12 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +4571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 71.12 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +4580,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 71.12 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +4594,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0611")
+					(reference "#PWR0613")
 					(unit 1)
 				)
 			)
@@ -4596,7 +4602,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 124.46 50.8 0)
+		(at 163.83 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4604,8 +4610,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6af8354c-3227-4a99-995a-9320af4dcb35")
-		(property "Reference" "#PWR0608"
-			(at 124.46 57.15 0)
+		(property "Reference" "#PWR0610"
+			(at 163.83 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +4620,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 124.46 54.61 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +4628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 50.8 0)
+			(at 163.83 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +4637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 50.8 0)
+			(at 163.83 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +4646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 124.46 50.8 0)
+			(at 163.83 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4654,7 +4660,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0608")
+					(reference "#PWR0610")
 					(unit 1)
 				)
 			)
@@ -4662,7 +4668,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
-		(at 113.03 36.83 0)
+		(at 152.4 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4671,7 +4677,7 @@
 		(fields_autoplaced yes)
 		(uuid "71172727-279d-4940-a73c-8ddd8e230815")
 		(property "Reference" "C604"
-			(at 115.57 35.5599 0)
+			(at 154.94 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +4686,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 115.57 38.0999 0)
+			(at 154.94 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4689,7 +4695,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 113.03 36.83 0)
+			(at 152.4 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4698,7 +4704,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 36.83 0)
+			(at 152.4 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4707,7 +4713,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 36.83 0)
+			(at 152.4 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,7 +4722,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 113.03 36.83 0)
+			(at 152.4 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +4731,7 @@
 			)
 		)
 		(property "Partnumber" "EEV-TG1H331Q"
-			(at 113.03 36.83 0)
+			(at 152.4 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +4740,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 113.03 36.83 0)
+			(at 152.4 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4765,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 38.1 41.91 0)
+		(at 77.47 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4767,8 +4773,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78bdccc8-d673-43f0-8c9b-2b2bbf220c47")
-		(property "Reference" "#PWR0603"
-			(at 38.1 48.26 0)
+		(property "Reference" "#PWR0604"
+			(at 77.47 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4777,7 +4783,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 38.1 45.72 0)
+			(at 77.47 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,7 +4791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 41.91 0)
+			(at 77.47 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +4800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 41.91 0)
+			(at 77.47 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4803,7 +4809,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 38.1 41.91 0)
+			(at 77.47 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,7 +4823,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0603")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)
@@ -4825,7 +4831,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 113.03 41.91 0)
+		(at 152.4 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4833,8 +4839,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b25f451-d2c2-417c-ae5c-b107d83ddc99")
-		(property "Reference" "#PWR0606"
-			(at 113.03 48.26 0)
+		(property "Reference" "#PWR0607"
+			(at 152.4 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,7 +4849,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 113.03 45.72 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +4857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 41.91 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +4866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 41.91 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4869,7 +4875,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 113.03 41.91 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,7 +4889,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0606")
+					(reference "#PWR0607")
 					(unit 1)
 				)
 			)
@@ -4891,7 +4897,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 88.9 41.91 0)
+		(at 128.27 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4899,8 +4905,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80dee565-2a20-42a9-baef-9e139cabe29b")
-		(property "Reference" "#PWR0604"
-			(at 88.9 48.26 0)
+		(property "Reference" "#PWR0605"
+			(at 128.27 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,7 +4915,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 88.9 45.72 0)
+			(at 128.27 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4917,7 +4923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 41.91 0)
+			(at 128.27 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +4932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 41.91 0)
+			(at 128.27 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4935,7 +4941,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 88.9 41.91 0)
+			(at 128.27 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +4955,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0604")
+					(reference "#PWR0605")
 					(unit 1)
 				)
 			)
@@ -4957,7 +4963,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 111.76 86.36 0)
+		(at 152.4 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4965,8 +4971,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84eb9d3a-1b86-47f6-9c18-7b9eaadd2afb")
-		(property "Reference" "#PWR0616"
-			(at 111.76 92.71 0)
+		(property "Reference" "#PWR0618"
+			(at 152.4 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +4981,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 111.76 90.17 0)
+			(at 152.4 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,7 +4989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 86.36 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +4998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 86.36 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +5007,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 111.76 86.36 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5015,7 +5021,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0616")
+					(reference "#PWR0618")
 					(unit 1)
 				)
 			)
@@ -5023,7 +5029,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 73.66 91.44 0)
+		(at 114.3 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5031,8 +5037,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fccc92c-795a-4edb-9259-b8da66fea5a6")
-		(property "Reference" "#PWR0621"
-			(at 73.66 97.79 0)
+		(property "Reference" "#PWR0623"
+			(at 114.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,7 +5047,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 73.66 95.25 0)
+			(at 114.3 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +5055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 91.44 0)
+			(at 114.3 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 91.44 0)
+			(at 114.3 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5073,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 73.66 91.44 0)
+			(at 114.3 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5081,7 +5087,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0621")
+					(reference "#PWR0623")
 					(unit 1)
 				)
 			)
@@ -5089,7 +5095,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 38.1 36.83 180)
+		(at 77.47 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5097,7 +5103,7 @@
 		(dnp no)
 		(uuid "90df4c02-a23b-4d82-9d94-d5a7a0c955a6")
 		(property "Reference" "C601"
-			(at 40.64 35.5599 0)
+			(at 80.01 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5112,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 40.64 38.0999 0)
+			(at 80.01 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5121,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 38.1 36.83 0)
+			(at 77.47 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,7 +5130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 36.83 0)
+			(at 77.47 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,7 +5139,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 36.83 0)
+			(at 77.47 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5142,7 +5148,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 42.418 40.386 0)
+			(at 81.788 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,7 +5180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "985d257e-258f-49e8-a7b5-63c1bb69547b")
-		(property "Reference" "#PWR0622"
+		(property "Reference" "#PWR0608"
 			(at 228.6 54.61 0)
 			(effects
 				(font
@@ -5224,7 +5230,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0622")
+					(reference "#PWR0608")
 					(unit 1)
 				)
 			)
@@ -5232,7 +5238,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 27.94 71.12 0)
+		(at 67.31 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5240,8 +5246,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dc6fae0-9b84-42c1-88a7-bbbe6c59e835")
-		(property "Reference" "#PWR0610"
-			(at 27.94 77.47 0)
+		(property "Reference" "#PWR0612"
+			(at 67.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5256,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 27.94 74.93 0)
+			(at 67.31 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,7 +5264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 71.12 0)
+			(at 67.31 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 71.12 0)
+			(at 67.31 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 27.94 71.12 0)
+			(at 67.31 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +5296,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0610")
+					(reference "#PWR0612")
 					(unit 1)
 				)
 			)
@@ -5298,7 +5304,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 101.6 88.9 0)
+		(at 142.24 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5306,8 +5312,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2f3265c-2104-4407-bc70-525ef67fdfec")
-		(property "Reference" "#PWR0619"
-			(at 101.6 95.25 0)
+		(property "Reference" "#PWR0621"
+			(at 142.24 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5322,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 101.6 92.71 0)
+			(at 142.24 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5324,7 +5330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 88.9 0)
+			(at 142.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5333,7 +5339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 88.9 0)
+			(at 142.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5342,7 +5348,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 101.6 88.9 0)
+			(at 142.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,7 +5362,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0619")
+					(reference "#PWR0621")
 					(unit 1)
 				)
 			)
@@ -5364,7 +5370,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small_Filled")
-		(at 88.9 36.83 270)
+		(at 128.27 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5372,8 +5378,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3f1f269-5d7e-43c3-9361-17dcac0a8bc3")
-		(property "Reference" "D601"
-			(at 91.44 35.5599 90)
+		(property "Reference" "D602"
+			(at 130.81 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5388,7 @@
 			)
 		)
 		(property "Value" "MBR0560"
-			(at 91.44 38.0999 90)
+			(at 130.81 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +5397,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 88.9 36.83 90)
+			(at 128.27 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +5406,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 36.83 90)
+			(at 128.27 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5415,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 36.83 0)
+			(at 128.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +5424,7 @@
 			)
 		)
 		(property "Manufacturer" "Changjiang"
-			(at 88.9 36.83 0)
+			(at 128.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5433,7 @@
 			)
 		)
 		(property "Partnumber" "MBR0560"
-			(at 88.9 36.83 0)
+			(at 128.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,7 +5450,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "D601")
+					(reference "D602")
 					(unit 1)
 				)
 			)
@@ -5452,7 +5458,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:MIC5504-3.3YM5")
-		(at 137.16 78.74 0)
+		(at 177.8 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5461,7 +5467,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad0d7deb-e10b-47de-8488-8884b69bcebb")
 		(property "Reference" "U603"
-			(at 137.16 68.58 0)
+			(at 177.8 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +5475,7 @@
 			)
 		)
 		(property "Value" "MIC5504-3.3YM5"
-			(at 137.16 71.12 0)
+			(at 177.8 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5483,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 137.16 88.9 0)
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +5492,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf"
-			(at 130.81 72.39 0)
+			(at 171.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +5501,7 @@
 			)
 		)
 		(property "Description" "300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23"
-			(at 137.16 78.74 0)
+			(at 177.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,15 +5535,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 124.46 46.99 180)
+		(at 163.83 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b06c3407-2189-4f0a-8734-444093f77a44")
-		(property "Reference" "R602"
-			(at 127 45.7199 0)
+		(property "Reference" "R603"
+			(at 166.37 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +5552,7 @@
 			)
 		)
 		(property "Value" "15.8k"
-			(at 127 48.2599 0)
+			(at 166.37 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,7 +5561,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 124.46 46.99 0)
+			(at 163.83 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5564,7 +5570,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 46.99 0)
+			(at 163.83 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,7 +5579,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 46.99 0)
+			(at 163.83 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,7 +5588,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 135.128 48.26 0)
+			(at 174.498 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5598,7 +5604,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "R602")
+					(reference "R603")
 					(unit 1)
 				)
 			)
@@ -5606,15 +5612,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 152.4 73.66 0)
+		(at 193.04 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b8a3b42d-7618-4ad3-9ab9-05fbb3dd8113")
-		(property "Reference" "#PWR0615"
-			(at 152.4 77.47 0)
+		(property "Reference" "#PWR0617"
+			(at 193.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,7 +5629,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 156.21 70.485 0)
+			(at 196.85 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +5637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 73.66 0)
+			(at 193.04 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5640,7 +5646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 73.66 0)
+			(at 193.04 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,7 +5655,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 152.4 73.66 0)
+			(at 193.04 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,7 +5669,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0615")
+					(reference "#PWR0617")
 					(unit 1)
 				)
 			)
@@ -5671,7 +5677,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 138.43 36.83 180)
+		(at 177.8 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5680,7 +5686,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcd2180b-c22e-407d-9f4b-5675bc010bf3")
 		(property "Reference" "C605"
-			(at 140.97 35.5599 0)
+			(at 180.34 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +5695,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 140.97 38.0999 0)
+			(at 180.34 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5698,7 +5704,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 138.43 36.83 0)
+			(at 177.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5707,7 +5713,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 36.83 0)
+			(at 177.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5716,7 +5722,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 36.83 0)
+			(at 177.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5748,7 +5754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be47e399-bc29-43fd-8227-5c31b58d8269")
-		(property "Reference" "R606"
+		(property "Reference" "R602"
 			(at 232.664 41.91 0)
 			(effects
 				(font
@@ -5800,7 +5806,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "R606")
+					(reference "R602")
 					(unit 1)
 				)
 			)
@@ -5808,7 +5814,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 88.9 88.9 0)
+		(at 129.54 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5816,8 +5822,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c09abe6e-5c75-4e48-a92e-edccce4be8d1")
-		(property "Reference" "#PWR0618"
-			(at 88.9 95.25 0)
+		(property "Reference" "#PWR0620"
+			(at 129.54 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5826,7 +5832,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 88.9 92.71 0)
+			(at 129.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5834,7 +5840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 88.9 0)
+			(at 129.54 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5843,7 +5849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 88.9 0)
+			(at 129.54 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5852,7 +5858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 88.9 88.9 0)
+			(at 129.54 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +5872,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0618")
+					(reference "#PWR0620")
 					(unit 1)
 				)
 			)
@@ -5874,7 +5880,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 63.5 49.53 0)
+		(at 102.87 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5882,8 +5888,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c30576f1-7f52-4c67-bd8c-01023eb36dc1")
-		(property "Reference" "#PWR0607"
-			(at 63.5 55.88 0)
+		(property "Reference" "#PWR0609"
+			(at 102.87 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5892,7 +5898,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 63.5 53.34 0)
+			(at 102.87 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5900,7 +5906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 49.53 0)
+			(at 102.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,7 +5915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 49.53 0)
+			(at 102.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5918,7 +5924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 63.5 49.53 0)
+			(at 102.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,7 +5938,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0607")
+					(reference "#PWR0609")
 					(unit 1)
 				)
 			)
@@ -5940,15 +5946,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 121.92 81.28 90)
+		(at 162.56 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c4fdcdc1-da7f-4ccb-8005-6726ca7bd481")
-		(property "Reference" "R603"
-			(at 121.92 78.994 90)
+		(property "Reference" "R604"
+			(at 162.56 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5956,7 +5962,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 121.92 83.82 90)
+			(at 162.56 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5964,7 +5970,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 121.92 81.28 0)
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5973,7 +5979,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 81.28 0)
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5982,7 +5988,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 121.92 81.28 0)
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,7 +6005,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "R603")
+					(reference "R604")
 					(unit 1)
 				)
 			)
@@ -6007,7 +6013,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 138.43 29.21 0)
+		(at 177.8 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6016,7 +6022,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb807c09-e3ea-4f5e-8521-ee665ff28f62")
 		(property "Reference" "#PWR0602"
-			(at 138.43 33.02 0)
+			(at 177.8 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,7 +6031,7 @@
 			)
 		)
 		(property "Value" "+5.4V"
-			(at 138.43 24.13 0)
+			(at 177.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,7 +6039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 29.21 0)
+			(at 177.8 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6042,7 +6048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 29.21 0)
+			(at 177.8 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,7 +6057,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 138.43 29.21 0)
+			(at 177.8 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6079,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 78.74 36.83 90)
+		(at 118.11 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6081,7 +6087,7 @@
 		(dnp no)
 		(uuid "cec7803a-f535-4884-952d-45eaa3a7ad76")
 		(property "Reference" "C602"
-			(at 82.55 39.37 90)
+			(at 121.92 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6095,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 82.55 41.91 90)
+			(at 121.92 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,7 +6103,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 78.74 36.83 0)
+			(at 118.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +6112,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 36.83 0)
+			(at 118.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +6121,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 36.83 0)
+			(at 118.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,7 +6146,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 33.02 66.04 90)
+		(at 72.39 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6149,7 +6155,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfcdc7ed-eb88-45de-887d-b4beab14f3e6")
 		(property "Reference" "FB601"
-			(at 32.9819 59.69 90)
+			(at 72.3519 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,7 +6163,7 @@
 			)
 		)
 		(property "Value" "MPZ1608S300A"
-			(at 32.9819 62.23 90)
+			(at 72.3519 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6165,7 +6171,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 33.02 67.818 90)
+			(at 72.39 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,7 +6180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 66.04 0)
+			(at 72.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +6189,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 33.02 66.04 0)
+			(at 72.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,7 +6214,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 95.25 31.75 90)
+		(at 134.62 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6217,7 +6223,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1be4db5-c6c3-4c31-a96c-cc1730eac8e5")
 		(property "Reference" "L601"
-			(at 95.25 26.67 90)
+			(at 134.62 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,7 +6231,7 @@
 			)
 		)
 		(property "Value" "22uH"
-			(at 95.25 29.21 90)
+			(at 134.62 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6233,7 +6239,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 95.25 31.75 0)
+			(at 134.62 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6242,7 +6248,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 31.75 0)
+			(at 134.62 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6251,7 +6257,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 31.75 0)
+			(at 134.62 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +6266,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 95.25 31.75 0)
+			(at 134.62 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6275,7 @@
 			)
 		)
 		(property "Partnumber" "NLCV32T-220K-PF"
-			(at 95.25 31.75 0)
+			(at 134.62 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6294,7 +6300,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 152.4 81.28 180)
+		(at 193.04 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6303,7 +6309,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5ca4970-976d-4f4a-b1f3-f965be8654d1")
 		(property "Reference" "C607"
-			(at 154.94 80.0099 0)
+			(at 195.58 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,7 +6318,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 154.94 82.5499 0)
+			(at 195.58 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,7 +6327,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 152.4 81.28 0)
+			(at 193.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6330,7 +6336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 81.28 0)
+			(at 193.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6339,7 +6345,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 81.28 0)
+			(at 193.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6364,7 +6370,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 111.76 81.28 180)
+		(at 152.4 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6372,7 +6378,7 @@
 		(dnp no)
 		(uuid "f5325ab7-c8af-4442-8154-1d7546825f61")
 		(property "Reference" "C606"
-			(at 103.886 80.264 0)
+			(at 144.526 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,7 +6387,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 105.664 83.312 0)
+			(at 146.304 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,7 +6396,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 111.76 81.28 0)
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +6405,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 81.28 0)
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6408,7 +6414,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 81.28 0)
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

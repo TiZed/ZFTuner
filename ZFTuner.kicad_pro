@@ -648,7 +648,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "/home/tized/HAM/Tuners/ZCTuner/ZFTuner/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -664,20 +664,20 @@
       "Root"
     ],
     [
-      "75c3584a-901e-4325-9a2d-71176fb63136",
-      "Capacitors_Bank"
-    ],
-    [
-      "54af2732-df3a-4e21-be89-08b1cbfb23cb",
-      "Inductors_Bank"
+      "6bf6105b-2249-4510-b91e-560ebaed8aef",
+      "Controller"
     ],
     [
       "31c40161-da45-48c7-94be-a4907341af15",
       "SWR_Meter"
     ],
     [
-      "6bf6105b-2249-4510-b91e-560ebaed8aef",
-      "Controller"
+      "75c3584a-901e-4325-9a2d-71176fb63136",
+      "Capacitors_Bank"
+    ],
+    [
+      "54af2732-df3a-4e21-be89-08b1cbfb23cb",
+      "Inductors_Bank"
     ],
     [
       "4f4b3f21-035d-41e9-bc50-b9de10321df3",

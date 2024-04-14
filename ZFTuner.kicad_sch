@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ZFTuner")
-		(date "2024-03-09")
+		(date "2024-04-14")
 		(rev "A0")
 		(company "TiZed")
 		(comment 1 "Automatic Antenna Tuner")
@@ -2024,7 +2024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1b33405-e3dd-4fad-8cb0-8723a7b0e448")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0104"
 			(at 256.54 85.09 0)
 			(effects
 				(font
@@ -2074,7 +2074,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d"
-					(reference "#PWR0103")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -2298,7 +2298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e85a6fd4-4252-462c-8541-a62c02d5b650")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0103"
 			(at 241.3 69.85 0)
 			(effects
 				(font
@@ -2348,7 +2348,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d"
-					(reference "#PWR0104")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -2357,7 +2357,6 @@
 	(sheet
 		(at 139.7 62.23)
 		(size 17.78 12.7)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2382,6 +2381,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Page" "${#}"
+			(at 155.702 60.96 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "RF_In" input
@@ -2437,7 +2445,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
@@ -2445,7 +2453,6 @@
 	(sheet
 		(at 20.574 174.498)
 		(size 15.24 13.462)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2472,6 +2479,15 @@
 				(justify left top)
 			)
 		)
+		(property "Page" "${#}"
+			(at 33.782 173.228 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d"
@@ -2483,7 +2499,6 @@
 	(sheet
 		(at 139.7 93.98)
 		(size 27.94 17.78)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2508,6 +2523,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Page" "${#}"
+			(at 163.83 92.456 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "RF_Out" output
@@ -2563,7 +2587,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d"
-					(page "3")
+					(page "5")
 				)
 			)
 		)
@@ -2571,7 +2595,6 @@
 	(sheet
 		(at 76.2 44.958)
 		(size 38.1 31.75)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2596,6 +2619,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Page" "${#}"
+			(at 110.49 43.688 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "Fwd_V" input
@@ -2691,7 +2723,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d"
-					(page "5")
+					(page "2")
 				)
 			)
 		)
@@ -2699,7 +2731,6 @@
 	(sheet
 		(at 139.7 120.65)
 		(size 27.94 17.78)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2724,6 +2755,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Page" "${#}"
+			(at 164.338 119.126 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "RF_In" passive
@@ -2779,7 +2819,7 @@
 		(instances
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d"
-					(page "2")
+					(page "4")
 				)
 			)
 		)
