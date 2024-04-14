@@ -5,3 +5,5 @@ fp-info-cache
 build
 *.bak
 *.lck
+\#auto_saved_files\#
+*.FCBak
