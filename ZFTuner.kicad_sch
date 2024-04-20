@@ -1605,6 +1605,17 @@
 		)
 		(uuid "0472850c-ef6d-4a12-9e3a-8867ac39b30f")
 	)
+	(label "CapRels_2"
+		(at 121.92 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c3f83af-71d6-48fa-bb12-99071af7b71e")
+	)
 	(label "CAN_H"
 		(at 72.39 54.61 180)
 		(fields_autoplaced yes)
@@ -1626,6 +1637,17 @@
 			(justify left bottom)
 		)
 		(uuid "5f007268-5c64-47f1-8f56-8e5ac59349d2")
+	)
+	(label "CapRels_1"
+		(at 121.92 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "717daddc-5d36-43b0-a4a7-fab2fa183072")
 	)
 	(label "TUNER_START"
 		(at 255.27 71.12 180)
@@ -1659,6 +1681,17 @@
 			(justify right bottom)
 		)
 		(uuid "91df103e-42f7-449d-bc64-64c64b55af1c")
+	)
+	(label "IndRels_1"
+		(at 121.92 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a07691b5-5fb0-4e9f-bdb6-626925970e14")
 	)
 	(label "RF_In"
 		(at 255.27 25.4 180)
@@ -1705,7 +1738,7 @@
 		(uuid "ceda9475-8c24-478d-b4b6-1accc8548f5e")
 	)
 	(label "CAN_L"
-		(at 255.27 99.06 180)
+		(at 255.27 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1716,7 +1749,7 @@
 		(uuid "d52060f3-1dc2-42bf-b685-3776200b3590")
 	)
 	(label "CAN_H"
-		(at 255.27 96.52 180)
+		(at 255.27 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1736,6 +1769,17 @@
 			(justify right bottom)
 		)
 		(uuid "db9fc05d-6fe6-43e3-90f0-aa7b2ece6c1e")
+	)
+	(label "IndRels_2"
+		(at 121.92 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eec8abf6-c821-46e4-b586-05b09031419f")
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")

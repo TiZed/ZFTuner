@@ -4096,71 +4096,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 228.6 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48c7d54f-2fb1-435f-9e58-b30eb3c99462")
-		(property "Reference" "#PWR0603"
-			(at 228.6 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 232.41 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 228.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64cc1db1-5671-4ef9-906c-ed7f59574d97")
-		)
-		(instances
-			(project "ZFTuner"
-				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0603")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 119.38 99.06 0)
 		(unit 1)
@@ -4669,6 +4604,72 @@
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
 					(reference "#PWR0610")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 193.04 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b6d5135-ace0-4d12-b4d6-22e42ea7f981")
+		(property "Reference" "#PWR0624"
+			(at 193.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04481298-b4c3-4507-b29d-f1bb0098545a")
+		)
+		(instances
+			(project "ZFTuner"
+				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
+					(reference "#PWR0624")
 					(unit 1)
 				)
 			)
@@ -5465,6 +5466,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 228.6 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6a1fb91-0955-4051-8563-25ba0a5baa6b")
+		(property "Reference" "#PWR0603"
+			(at 228.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 228.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 228.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "512628ac-0e54-4e9e-80fd-1d80b8aff601")
+		)
+		(instances
+			(project "ZFTuner"
+				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
+					(reference "#PWR0603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:MIC5504-3.3YM5")
 		(at 177.8 104.14 0)
 		(unit 1)
@@ -5613,71 +5680,6 @@
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
 					(reference "R603")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 193.04 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8a3b42d-7618-4ad3-9ab9-05fbb3dd8113")
-		(property "Reference" "#PWR0617"
-			(at 193.04 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 196.85 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 193.04 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b882b7cb-4f10-47eb-9529-b917ccc2fe81")
-		)
-		(instances
-			(project "ZFTuner"
-				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
-					(reference "#PWR0617")
 					(unit 1)
 				)
 			)
