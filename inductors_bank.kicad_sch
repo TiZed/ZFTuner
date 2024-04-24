@@ -2135,7 +2135,7 @@
 	)
 	(wire
 		(pts
-			(xy 211.836 57.15) (xy 211.836 62.23)
+			(xy 210.82 57.15) (xy 210.82 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2455,7 +2455,7 @@
 	)
 	(wire
 		(pts
-			(xy 112.776 57.15) (xy 112.776 62.23)
+			(xy 111.76 57.15) (xy 111.76 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2735,7 +2735,7 @@
 	)
 	(wire
 		(pts
-			(xy 211.836 76.2) (xy 211.836 72.39)
+			(xy 210.82 76.2) (xy 210.82 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2935,7 +2935,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.216 67.31) (xy 200.66 67.31)
+			(xy 203.2 67.31) (xy 200.66 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2995,7 +2995,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.156 67.31) (xy 101.6 67.31)
+			(xy 104.14 67.31) (xy 101.6 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3115,7 +3115,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.396 76.2) (xy 112.776 76.2)
+			(xy 119.38 76.2) (xy 111.76 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3315,7 +3315,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.456 76.2) (xy 211.836 76.2)
+			(xy 218.44 76.2) (xy 210.82 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3605,7 +3605,7 @@
 	)
 	(wire
 		(pts
-			(xy 112.776 76.2) (xy 112.776 72.39)
+			(xy 111.76 76.2) (xy 111.76 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4047,7 +4047,7 @@
 		(uuid "055439b9-6cc4-48a6-a0c9-10e34309f6e9")
 	)
 	(label "Ind12v_2"
-		(at 219.456 76.2 0)
+		(at 218.44 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4157,7 +4157,7 @@
 		(uuid "6ac159ae-87f5-403a-acdd-667b45c68a74")
 	)
 	(label "Ind12v_1"
-		(at 120.396 76.2 0)
+		(at 119.38 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5115,10 +5115,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "554cfb7e-2b5d-4ab4-93d6-ea003dfe4e48")
 		(property "Reference" "Q504"
-			(at 204.47 74.9299 0)
+			(at 203.454 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +5126,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 204.47 77.4699 0)
+			(at 203.454 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,7 +5934,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 112.776 57.15 0)
+		(at 111.76 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5944,7 +5943,7 @@
 		(dnp no)
 		(uuid "869924a2-c01e-4ee8-8c50-47b16714fae2")
 		(property "Reference" "#PWR0503"
-			(at 112.776 60.96 0)
+			(at 111.76 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +5952,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 112.395 52.7558 0)
+			(at 111.379 52.7558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +5960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 112.776 57.15 0)
+			(at 111.76 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +5969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 112.776 57.15 0)
+			(at 111.76 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5979,7 +5978,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 112.776 57.15 0)
+			(at 111.76 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,7 +6340,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 209.296 67.31 0)
+		(at 208.28 67.31 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6351,7 +6350,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5b7ec94-3296-4d1f-9810-134934659dda")
 		(property "Reference" "Q502"
-			(at 215.646 66.0399 0)
+			(at 214.63 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6360,7 +6359,7 @@
 			)
 		)
 		(property "Value" "PMOS"
-			(at 215.646 68.5799 0)
+			(at 214.63 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6368,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 214.376 69.85 0)
+			(at 213.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6378,7 +6377,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 209.296 54.61 0)
+			(at 208.28 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6387,7 +6386,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 209.296 67.31 0)
+			(at 208.28 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,7 +6395,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 209.296 50.165 0)
+			(at 208.28 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,7 +6404,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 209.296 48.26 0)
+			(at 208.28 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6414,7 +6413,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 209.296 52.07 0)
+			(at 208.28 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6521,7 +6520,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 110.236 67.31 0)
+		(at 109.22 67.31 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6531,7 +6530,7 @@
 		(fields_autoplaced yes)
 		(uuid "a972bd18-65f3-4ab1-bbd5-9e83b65eb4c6")
 		(property "Reference" "Q501"
-			(at 116.586 66.0399 0)
+			(at 115.57 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,7 +6539,7 @@
 			)
 		)
 		(property "Value" "PMOS"
-			(at 116.586 68.5799 0)
+			(at 115.57 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6549,7 +6548,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 115.316 69.85 0)
+			(at 114.3 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,7 +6557,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 110.236 54.61 0)
+			(at 109.22 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,7 +6566,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 110.236 67.31 0)
+			(at 109.22 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6576,7 +6575,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 110.236 50.165 0)
+			(at 109.22 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,7 +6584,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 110.236 48.26 0)
+			(at 109.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6594,7 +6593,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 110.236 52.07 0)
+			(at 109.22 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,7 +7382,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 211.836 57.15 0)
+		(at 210.82 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7392,7 +7391,7 @@
 		(dnp no)
 		(uuid "e47d74d2-0013-4152-a753-1e701d28d18d")
 		(property "Reference" "#PWR0504"
-			(at 211.836 60.96 0)
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7401,7 +7400,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 211.455 52.7558 0)
+			(at 210.439 52.7558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,7 +7408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 211.836 57.15 0)
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,7 +7417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 211.836 57.15 0)
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7427,7 +7426,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 211.836 57.15 0)
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7602,10 +7601,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fdde7924-5249-40c2-8882-32cb513d1c52")
 		(property "Reference" "Q503"
-			(at 105.41 74.9299 0)
+			(at 104.394 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7614,7 +7612,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 105.41 77.4699 0)
+			(at 104.394 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
