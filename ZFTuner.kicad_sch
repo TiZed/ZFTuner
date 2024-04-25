@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ZFTuner")
-		(date "2024-04-23")
+		(date "2024-04-26")
 		(rev "A0")
 		(company "TiZed")
 		(comment 1 "Automatic Antenna Tuner")
@@ -1133,22 +1133,10 @@
 		)
 	)
 	(junction
-		(at 132.08 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16f375c0-f28b-417d-ac71-7881afe9eae5")
-	)
-	(junction
 		(at 264.16 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4208516b-f0e3-4c51-b930-7831d24ad992")
-	)
-	(junction
-		(at 123.19 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ec61b61-0f7d-42a4-b30f-5dab30109724")
 	)
 	(junction
 		(at 256.54 76.2)
@@ -1157,13 +1145,34 @@
 		(uuid "724e405f-f94e-49f7-a5b9-0fe22f6e6201")
 	)
 	(junction
+		(at 133.35 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fa0f986-b76f-45ef-8a74-d12e193b1835")
+	)
+	(junction
+		(at 121.92 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1b0d942-020b-4f01-adfd-35d3236ab389")
+	)
+	(junction
 		(at 241.3 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a713c5ff-e756-4a61-84e2-e8ad5badaffd")
 	)
 	(bus_entry
-		(at 119.38 100.33)
+		(at 116.84 97.79)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa88e7d-bd1c-4b60-ab9a-9d05ae0ee73d")
+	)
+	(bus_entry
+		(at 116.84 100.33)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1172,16 +1181,7 @@
 		(uuid "6e9d7465-4bcf-43ca-a3e4-f7b7e3a683a2")
 	)
 	(bus_entry
-		(at 119.38 97.79)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abeacd57-ed77-4eec-89e8-d727b972d05b")
-	)
-	(bus_entry
-		(at 119.38 124.46)
+		(at 116.84 124.46)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1190,7 +1190,7 @@
 		(uuid "ca046159-2de0-436c-b515-415df3b70289")
 	)
 	(bus_entry
-		(at 119.38 127)
+		(at 116.84 127)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1228,6 +1228,16 @@
 		)
 		(uuid "06f6caa0-7ec1-4935-84b6-39b2ce8ff982")
 	)
+	(bus
+		(pts
+			(xy 121.92 96.52) (xy 121.92 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136c2113-66de-4629-a4ed-39af81d62d14")
+	)
 	(wire
 		(pts
 			(xy 114.3 46.99) (xy 162.56 46.99)
@@ -1237,6 +1247,16 @@
 			(type default)
 		)
 		(uuid "14c7d356-46c7-4deb-9030-7407f85b8994")
+	)
+	(wire
+		(pts
+			(xy 133.35 109.22) (xy 139.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2123fc2a-0644-433c-943d-4e1342492e6d")
 	)
 	(wire
 		(pts
@@ -1260,7 +1280,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 87.63) (xy 132.08 87.63)
+			(xy 165.1 87.63) (xy 133.35 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1378,6 +1398,16 @@
 		)
 		(uuid "60630fbb-1865-48a3-b00c-211a87fdc5dd")
 	)
+	(bus
+		(pts
+			(xy 121.92 123.19) (xy 139.7 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62171996-5657-43ad-8d84-988db4944439")
+	)
 	(wire
 		(pts
 			(xy 256.54 78.74) (xy 256.54 76.2)
@@ -1400,27 +1430,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 109.22) (xy 139.7 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ca2258f-cf83-4e63-9eb7-73bb62fae6d1")
-	)
-	(bus
-		(pts
-			(xy 123.19 69.85) (xy 123.19 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "852ae8c8-581f-4d96-8af0-f40a7864b7ba")
-	)
-	(wire
-		(pts
-			(xy 132.08 109.22) (xy 132.08 135.89)
+			(xy 133.35 109.22) (xy 133.35 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1430,13 +1440,23 @@
 	)
 	(bus
 		(pts
-			(xy 119.38 100.33) (xy 119.38 124.46)
+			(xy 116.84 100.33) (xy 116.84 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8aff8b8a-7345-4f88-adb9-a94f452579e6")
+	)
+	(bus
+		(pts
+			(xy 116.84 97.79) (xy 116.84 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e1c6a4-752b-40df-95f7-769b4a93ff6b")
 	)
 	(wire
 		(pts
@@ -1460,17 +1480,7 @@
 	)
 	(bus
 		(pts
-			(xy 139.7 123.19) (xy 123.19 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a3f0d83-0076-485e-a3d2-ad8c5e5df100")
-	)
-	(bus
-		(pts
-			(xy 119.38 124.46) (xy 119.38 127)
+			(xy 116.84 124.46) (xy 116.84 127)
 		)
 		(stroke
 			(width 0)
@@ -1500,7 +1510,7 @@
 	)
 	(bus
 		(pts
-			(xy 123.19 96.52) (xy 123.19 123.19)
+			(xy 121.92 69.85) (xy 121.92 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1510,27 +1520,7 @@
 	)
 	(bus
 		(pts
-			(xy 139.7 96.52) (xy 123.19 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a56859e8-c23c-471c-acc6-6adccfdb2bbb")
-	)
-	(wire
-		(pts
-			(xy 132.08 135.89) (xy 139.7 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7176ba7-cba4-4e7d-a785-92fb7736426c")
-	)
-	(bus
-		(pts
-			(xy 114.3 72.39) (xy 119.38 72.39)
+			(xy 114.3 72.39) (xy 116.84 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1540,7 +1530,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 100.33) (xy 139.7 100.33)
+			(xy 133.35 135.89) (xy 139.7 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa18fb16-836f-4396-b1d8-16e2528271d9")
+	)
+	(wire
+		(pts
+			(xy 119.38 100.33) (xy 139.7 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1600,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 87.63) (xy 132.08 109.22)
+			(xy 133.35 87.63) (xy 133.35 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1610,23 +1610,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 102.87) (xy 139.7 102.87)
+			(xy 119.38 102.87) (xy 139.7 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b9acea09-be0c-40ee-95f5-571531108bb1")
-	)
-	(bus
-		(pts
-			(xy 119.38 72.39) (xy 119.38 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb2bd44f-4eb3-4069-a47c-30037521d342")
 	)
 	(wire
 		(pts
@@ -1640,7 +1630,7 @@
 	)
 	(bus
 		(pts
-			(xy 119.38 97.79) (xy 119.38 100.33)
+			(xy 116.84 72.39) (xy 116.84 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1660,7 +1650,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 129.54) (xy 139.7 129.54)
+			(xy 119.38 129.54) (xy 139.7 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1710,7 +1700,7 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 69.85) (xy 123.19 69.85)
+			(xy 114.3 69.85) (xy 121.92 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1750,7 +1740,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 127) (xy 139.7 127)
+			(xy 119.38 127) (xy 139.7 127)
 		)
 		(stroke
 			(width 0)
@@ -1788,6 +1778,16 @@
 		)
 		(uuid "fc8de658-7ff7-4d0c-a58f-5f554ddfdfc5")
 	)
+	(bus
+		(pts
+			(xy 121.92 96.52) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc1f0f0-55ab-4c8e-8d79-dc895ef80544")
+	)
 	(label "TUNER_KEY"
 		(at 255.27 68.58 180)
 		(fields_autoplaced yes)
@@ -1800,7 +1800,7 @@
 		(uuid "0472850c-ef6d-4a12-9e3a-8867ac39b30f")
 	)
 	(label "CapRels_2"
-		(at 121.92 129.54 0)
+		(at 119.38 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1833,7 +1833,7 @@
 		(uuid "5f007268-5c64-47f1-8f56-8e5ac59349d2")
 	)
 	(label "CapRels_1"
-		(at 121.92 127 0)
+		(at 119.38 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1877,7 +1877,7 @@
 		(uuid "91df103e-42f7-449d-bc64-64c64b55af1c")
 	)
 	(label "IndRels_1"
-		(at 121.92 100.33 0)
+		(at 119.38 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1965,7 +1965,7 @@
 		(uuid "db9fc05d-6fe6-43e3-90f0-aa7b2ece6c1e")
 	)
 	(label "IndRels_2"
-		(at 121.92 102.87 0)
+		(at 119.38 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2993,16 +2993,6 @@
 			)
 			(uuid "db97e9e7-e4e7-460e-bb7b-75085db5642f")
 		)
-		(pin "{S[1..4] R[1..4]}" input
-			(at 139.7 96.52 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c560152e-33bb-458c-a4ee-73fa3096cc7e")
-		)
 		(pin "IndRels_2" input
 			(at 139.7 102.87 180)
 			(effects
@@ -3022,6 +3012,16 @@
 				(justify left)
 			)
 			(uuid "236b11e3-7b05-4fcc-95ae-9fc6bc571df1")
+		)
+		(pin "{S[1..4] R[1..4]}" input
+			(at 139.7 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f46c908b-5a02-4cbd-a5fd-71b45ea6b4cc")
 		)
 		(instances
 			(project "ZFTuner"
@@ -3099,26 +3099,6 @@
 			)
 			(uuid "59332b64-d1f4-4ca9-a384-428d18e7ada3")
 		)
-		(pin "Relays{S[1..4] R[1..4]}" output
-			(at 114.3 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a74e1ec8-133b-4a02-8e35-23541ba4b386")
-		)
-		(pin "{CapRels_[1..2] IndRels_[1..2]}" output
-			(at 114.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4a13d697-205c-49c6-b1af-0175528a9524")
-		)
 		(pin "TUNER_KEY" output
 			(at 76.2 48.26 180)
 			(effects
@@ -3158,6 +3138,26 @@
 				(justify left)
 			)
 			(uuid "ddd981f8-a141-4237-ab54-110953dc7230")
+		)
+		(pin "{CapRels_[1..2] IndRels_[1..2]}" output
+			(at 114.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2f5787b8-8a0e-4856-bb26-bbf28d3cb53d")
+		)
+		(pin "{S[1..4] R[1..4]}" output
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8a89e4da-a33b-4f1b-a284-f91e997dcac2")
 		)
 		(instances
 			(project "ZFTuner"
@@ -3225,16 +3225,6 @@
 			)
 			(uuid "8864f94d-26c0-4827-8aef-fedccfb4199e")
 		)
-		(pin "{S[1..4] R[1..4]}" input
-			(at 139.7 123.19 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9bb1aa2c-b928-46cc-b7bd-c18ec7770c2f")
-		)
 		(pin "CapRels_2" input
 			(at 139.7 129.54 180)
 			(effects
@@ -3254,6 +3244,16 @@
 				(justify left)
 			)
 			(uuid "ae34da85-0bfa-4e23-a9fd-897bd2e07ed7")
+		)
+		(pin "{S[1..4] R[1..4]}" input
+			(at 139.7 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "763366f0-aa74-4b49-a6e2-6a930f6205b4")
 		)
 		(instances
 			(project "ZFTuner"
