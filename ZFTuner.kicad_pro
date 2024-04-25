@@ -191,7 +191,8 @@
         0.8,
         1.0,
         1.2,
-        1.5
+        1.5,
+        1.7803
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -495,7 +496,7 @@
         "name": "RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.2,
+        "track_width": 1.7803,
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
@@ -672,6 +673,10 @@
       {
         "netclass": "Relays",
         "pattern": "/Capacitors_Bank/S4"
+      },
+      {
+        "netclass": "Relays",
+        "pattern": "/Inductors_Bank/R1"
       }
     ]
   },
