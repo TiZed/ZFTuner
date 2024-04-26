@@ -3397,17 +3397,6 @@
 		)
 		(uuid "d183453a-5373-43bc-af19-74983114d01f")
 	)
-	(text "FB Resistors:\nFor 3.3V: 51k & 16.2k\nFor 5.0V: 88.7k & 16.9k"
-		(exclude_from_sim no)
-		(at 176.53 76.454 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0b32f88-653c-4f3c-b835-8458bd90870f")
-	)
 	(text "Vpp: 6..52V"
 		(exclude_from_sim no)
 		(at 69.342 54.102 0)
@@ -4091,7 +4080,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "91k"
+		(property "Value" "95.3k"
 			(at 166.37 62.2299 0)
 			(effects
 				(font
@@ -5815,7 +5804,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "15.8k"
+		(property "Value" "16.5k"
 			(at 166.37 72.3899 0)
 			(effects
 				(font
