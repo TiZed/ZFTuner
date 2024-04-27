@@ -2069,7 +2069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "Connector_Coaxial:SMA_Bat_Wireless_BWSMA-KE-P001_EdgeMount_1.6mm-PCB"
 			(at 264.16 25.4 0)
 			(effects
 				(font
@@ -2685,7 +2685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "Connector_Coaxial:SMA_Bat_Wireless_BWSMA-KE-P001_EdgeMount_1.6mm-PCB"
 			(at 264.16 41.91 0)
 			(effects
 				(font
