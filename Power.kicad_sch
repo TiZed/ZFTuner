@@ -2561,6 +2561,12 @@
 		(uuid "08003677-4188-440c-81d5-848773cf17b0")
 	)
 	(junction
+		(at 67.31 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0af9750f-31c7-4d2f-9d6e-9c23ddf041be")
+	)
+	(junction
 		(at 163.83 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2589,6 +2595,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ef2b828-d05a-4341-9812-e89ffd30bc1f")
+	)
+	(junction
+		(at 49.53 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "772a3370-bea7-419f-95f1-3280876151ea")
 	)
 	(junction
 		(at 87.63 55.88)
@@ -2760,6 +2772,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 111.76) (xy 49.53 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "282c776b-d611-4a79-995f-f1024a1c23cc")
+	)
+	(wire
+		(pts
 			(xy 177.8 53.34) (xy 177.8 55.88)
 		)
 		(stroke
@@ -2830,7 +2852,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 95.25) (xy 67.31 90.17)
+			(xy 49.53 116.84) (xy 49.53 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2850,7 +2872,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 90.17) (xy 77.47 90.17)
+			(xy 67.31 101.6) (xy 60.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c38f776-caa2-4b7f-885a-3bb1478d5036")
+	)
+	(wire
+		(pts
+			(xy 60.96 111.76) (xy 67.31 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2917,6 +2949,16 @@
 			(type solid)
 		)
 		(uuid "608c621f-1b8c-4da5-a216-9a089133b02f")
+	)
+	(wire
+		(pts
+			(xy 49.53 101.6) (xy 55.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6103fc60-45bc-4adb-a02f-3e39ddb1bf1e")
 	)
 	(wire
 		(pts
@@ -3040,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 90.17) (xy 77.47 95.25)
+			(xy 67.31 111.76) (xy 67.31 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3270,6 +3312,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 111.76) (xy 67.31 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6881ba6-fa5a-4a2f-8e20-557374745f13")
+	)
+	(wire
+		(pts
 			(xy 128.27 63.5) (xy 128.27 66.04)
 		)
 		(stroke
@@ -3300,7 +3352,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 90.17) (xy 69.85 90.17)
+			(xy 49.53 111.76) (xy 55.88 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4657,7 +4709,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 95.25 0)
+		(at 67.31 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4666,7 +4718,7 @@
 		(fields_autoplaced yes)
 		(uuid "67508ac8-73a4-4bd5-8b7b-aa044d9ea3db")
 		(property "Reference" "#PWR0613"
-			(at 77.47 101.6 0)
+			(at 67.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +4727,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 100.33 0)
+			(at 67.31 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +4735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 95.25 0)
+			(at 67.31 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +4744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 95.25 0)
+			(at 67.31 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +4753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 95.25 0)
+			(at 67.31 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,6 +5201,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 58.42 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8431dca1-36d6-4f8d-8130-235f9bdcd28d")
+		(property "Reference" "FB602"
+			(at 58.3819 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MPZ1608S300A"
+			(at 58.3819 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 58.42 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 58.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "167d6c95-416d-480f-9a32-aeade1aa17d6")
+		)
+		(pin "1"
+			(uuid "abdf2ce8-039a-440d-8a4c-5739822b6855")
+		)
+		(instances
+			(project "ZFTuner"
+				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
+					(reference "FB602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 152.4 111.76 0)
 		(unit 1)
@@ -5425,7 +5545,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 67.31 95.25 0)
+		(at 49.53 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5434,7 +5554,7 @@
 		(fields_autoplaced yes)
 		(uuid "9dc6fae0-9b84-42c1-88a7-bbbe6c59e835")
 		(property "Reference" "#PWR0612"
-			(at 67.31 101.6 0)
+			(at 49.53 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5443,7 +5563,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 67.31 99.06 0)
+			(at 49.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5571,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 95.25 0)
+			(at 49.53 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,7 +5580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 95.25 0)
+			(at 49.53 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +5589,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 67.31 95.25 0)
+			(at 49.53 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6454,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 72.39 90.17 90)
+		(at 58.42 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6343,7 +6463,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfcdc7ed-eb88-45de-887d-b4beab14f3e6")
 		(property "Reference" "FB601"
-			(at 72.3519 83.82 90)
+			(at 58.3819 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6351,7 +6471,7 @@
 			)
 		)
 		(property "Value" "MPZ1608S300A"
-			(at 72.3519 86.36 90)
+			(at 58.3819 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6479,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 72.39 91.948 90)
+			(at 58.42 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6368,7 +6488,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 90.17 0)
+			(at 58.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +6497,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 72.39 90.17 0)
+			(at 58.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -10051,7 +10051,7 @@
 	)
 	(hierarchical_label "Fwd_V"
 		(shape input)
-		(at 119.38 31.75 0)
+		(at 119.38 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10063,7 +10063,7 @@
 	)
 	(hierarchical_label "Rfl_V"
 		(shape input)
-		(at 119.38 34.29 0)
+		(at 119.38 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
