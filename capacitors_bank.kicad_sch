@@ -4669,7 +4669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "AO3400"
 			(at 133.35 77.4699 0)
 			(effects
 				(font
@@ -4687,7 +4687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "~"
 			(at 127 63.5 0)
 			(effects
 				(font
@@ -4992,7 +4992,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "AO3400"
 			(at 227.33 77.4699 0)
 			(effects
 				(font
@@ -5010,7 +5010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "~"
 			(at 220.98 63.5 0)
 			(effects
 				(font
@@ -6784,7 +6784,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "AO3401A"
 			(at 238.76 68.5799 0)
 			(effects
 				(font
@@ -6802,7 +6802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "~"
 			(at 232.41 54.61 0)
 			(effects
 				(font
@@ -8253,7 +8253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "AO3401A"
 			(at 144.78 67.3099 0)
 			(effects
 				(font
@@ -8271,7 +8271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "~"
 			(at 138.43 53.34 0)
 			(effects
 				(font

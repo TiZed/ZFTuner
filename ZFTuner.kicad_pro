@@ -823,6 +823,30 @@
           "label": "Sim.Type",
           "name": "Sim.Type",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Color2",
+          "name": "Color2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Color1",
+          "name": "Color1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Color",
+          "name": "Color",
+          "show": false
         }
       ],
       "filter_string": "",
