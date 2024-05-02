@@ -617,6 +617,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_Zener_Filled"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_Filled_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_Zener_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:FerriteBead_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -2898,6 +3043,12 @@
 		(uuid "3ff94a4e-1768-4d3a-9b08-3789cb6982d6")
 	)
 	(junction
+		(at 57.15 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "403616da-27cb-4484-9e98-f66fbfb297e2")
+	)
+	(junction
 		(at 163.83 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2962,6 +3113,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dacf0e21-5bdc-45dc-aa47-ca3430698ce1")
+	)
+	(junction
+		(at 48.26 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd65f07e-65f7-45f3-bc51-09a5991567db")
 	)
 	(junction
 		(at 142.24 55.88)
@@ -3081,6 +3238,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 55.88) (xy 57.15 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b95a328-1e2c-4ec0-8c4d-7613afa9fdd5")
+	)
+	(wire
+		(pts
 			(xy 160.02 106.68) (xy 157.48 106.68)
 		)
 		(stroke
@@ -3101,7 +3268,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 63.5) (xy 57.15 66.04)
+			(xy 48.26 63.5) (xy 48.26 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3271,7 +3438,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 71.12) (xy 57.15 73.66)
+			(xy 48.26 77.47) (xy 48.26 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3331,6 +3498,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 68.58) (xy 48.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d79f02-a76f-4d92-8344-b67c8576e808")
+	)
+	(wire
+		(pts
 			(xy 120.65 60.96) (xy 123.19 60.96)
 		)
 		(stroke
@@ -3338,6 +3515,16 @@
 			(type solid)
 		)
 		(uuid "632b0a3a-019b-44af-8630-aea675f2d30b")
+	)
+	(wire
+		(pts
+			(xy 48.26 68.58) (xy 48.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f9975d-8f0d-46d3-96d4-40082fd4c5da")
 	)
 	(wire
 		(pts
@@ -3401,7 +3588,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 55.88) (xy 52.07 55.88)
+			(xy 39.37 55.88) (xy 43.18 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3431,7 +3618,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 53.34) (xy 48.26 55.88)
+			(xy 39.37 53.34) (xy 39.37 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3501,7 +3688,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 55.88) (xy 67.31 55.88)
+			(xy 53.34 55.88) (xy 57.15 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3641,6 +3828,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 66.04) (xy 57.15 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be85205b-2c5f-4155-bcb5-4f9cd4ba405a")
+	)
+	(wire
+		(pts
 			(xy 177.8 63.5) (xy 177.8 66.04)
 		)
 		(stroke
@@ -3698,6 +3895,16 @@
 			(type solid)
 		)
 		(uuid "ce953e05-9078-430c-915e-1194d6231ed0")
+	)
+	(wire
+		(pts
+			(xy 57.15 55.88) (xy 67.31 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf24ee0f-76b8-4cfe-9a1c-82fe430ae78d")
 	)
 	(wire
 		(pts
@@ -3850,7 +4057,7 @@
 	)
 	(text "Vin: 10..28V"
 		(exclude_from_sim no)
-		(at 40.386 55.88 0)
+		(at 31.496 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3963,7 +4170,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "100uF"
 			(at 69.342 61.976 0)
 			(effects
 				(font
@@ -3972,7 +4179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 67.31 60.96 0)
 			(effects
 				(font
@@ -3999,7 +4206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Nichicon"
 			(at 67.31 60.96 0)
 			(effects
 				(font
@@ -4008,7 +4215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Partnumber" "EEV-TG1H331Q"
+		(property "Partnumber" "UUD1H101MNL1GS"
 			(at 67.31 60.96 0)
 			(effects
 				(font
@@ -4018,12 +4225,11 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 67.31 60.96 0)
+			(at 71.628 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4042,32 +4248,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 57.15 58.42 90)
+		(lib_id "Device:D_Zener_Filled")
+		(at 57.15 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0d4848b9-6df5-4b93-8fca-03c9b07099d7")
-		(property "Reference" "Q601"
-			(at 57.15 49.53 90)
+		(uuid "0ba5d9aa-0788-4c89-842d-db9bc5c34481")
+		(property "Reference" "D604"
+			(at 58.674 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "AO3401A"
-			(at 57.15 52.07 90)
+		(property "Value" "10V"
+			(at 59.436 61.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 54.61 53.34 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 57.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +4284,83 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 58.42 0)
+			(at 57.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, filled shape"
+			(at 57.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "BZT52C10"
+			(at 57.15 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14c05e62-34b1-4fa6-a529-9c36428b54eb")
+		)
+		(pin "1"
+			(uuid "380473c9-b09e-4360-971c-ef5c97cd747f")
+		)
+		(instances
+			(project "ZFTuner"
+				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
+					(reference "D604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 48.26 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d4848b9-6df5-4b93-8fca-03c9b07099d7")
+		(property "Reference" "Q601"
+			(at 48.26 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 48.26 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +4369,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 57.15 58.42 0)
+			(at 48.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4378,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 74.295 58.42 0)
+			(at 65.405 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +4387,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 76.2 58.42 0)
+			(at 67.31 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4396,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 72.39 58.42 0)
+			(at 63.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5571,7 +5855,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "71172727-279d-4940-a73c-8ddd8e230815")
 		(property "Reference" "C604"
 			(at 154.94 59.6899 0)
@@ -5591,7 +5874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 152.4 60.96 0)
 			(effects
 				(font
@@ -5618,7 +5901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "KNSCHA"
 			(at 152.4 60.96 0)
 			(effects
 				(font
@@ -5627,7 +5910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Partnumber" "EEV-TG1H331Q"
+		(property "Partnumber" "189RV0016"
 			(at 152.4 60.96 0)
 			(effects
 				(font
@@ -5636,13 +5919,12 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "50V"
-			(at 152.4 60.96 0)
+		(property "Voltage" "25V"
+			(at 156.972 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5994,7 +6276,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 57.15 73.66 0)
+		(at 48.26 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6003,7 +6285,7 @@
 		(fields_autoplaced yes)
 		(uuid "86fe3fb7-036d-4135-abe8-8a19f5ee6080")
 		(property "Reference" "#PWR0617"
-			(at 57.15 80.01 0)
+			(at 48.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +6294,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 57.15 77.47 0)
+			(at 48.26 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +6302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 73.66 0)
+			(at 48.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6029,7 +6311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 73.66 0)
+			(at 48.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6038,7 +6320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 57.15 73.66 0)
+			(at 48.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,7 +6991,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 48.26 53.34 0)
+		(at 39.37 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6718,7 +7000,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6c79160-427c-4da2-9024-a2138018a6ac")
 		(property "Reference" "#PWR0626"
-			(at 48.26 57.15 0)
+			(at 39.37 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6727,7 +7009,7 @@
 			)
 		)
 		(property "Value" "+13.8V"
-			(at 48.26 48.26 0)
+			(at 39.37 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6735,7 +7017,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 53.34 0)
+			(at 39.37 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6744,7 +7026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 53.34 0)
+			(at 39.37 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,7 +7035,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 48.26 53.34 0)
+			(at 39.37 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +7393,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 57.15 68.58 180)
+		(at 48.26 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7119,7 +7401,7 @@
 		(dnp no)
 		(uuid "c6524817-341e-4cec-8718-48412a2eb2bd")
 		(property "Reference" "R607"
-			(at 52.832 67.564 0)
+			(at 43.942 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7127,7 +7409,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 53.34 70.104 0)
+			(at 44.45 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7135,7 +7417,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 57.15 68.58 0)
+			(at 48.26 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7144,7 +7426,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 68.58 0)
+			(at 48.26 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7153,7 +7435,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 57.15 68.58 0)
+			(at 48.26 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
