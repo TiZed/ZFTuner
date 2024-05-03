@@ -1400,7 +1400,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Adjustable current limit high side switch IC, 2.8..5.5V, 0.2..1.7A"
+			(property "Description" "Adjustable current limit high side switch IC, active-low enable, output discharge, 2.8..5.5V, 0.2..1.7A, 89mOhm Ron, TSOP-6"
 				(at 0 -16.764 0)
 				(effects
 					(font
@@ -1409,7 +1409,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "USB power-distribution"
+			(property "ki_keywords" "USB power-distribution ROHM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1464,24 +1464,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "ILIM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_out line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -1523,7 +1505,7 @@
 				(pin open_collector line
 					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "OC"
+					(name "~{OC}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1531,6 +1513,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "ILIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3031,6 +3031,12 @@
 		(uuid "1d40a572-b9e8-41be-a3a3-77504a0020e2")
 	)
 	(junction
+		(at 81.28 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26df49c7-ab86-416b-a76f-1a7b30624712")
+	)
+	(junction
 		(at 67.31 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3248,6 +3254,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 55.88) (xy 87.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "1c0d8cb6-a5b0-4dad-81ab-5766e89fcddd")
+	)
+	(wire
+		(pts
 			(xy 160.02 106.68) (xy 157.48 106.68)
 		)
 		(stroke
@@ -3318,7 +3334,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 55.88) (xy 87.63 55.88)
+			(xy 77.47 55.88) (xy 81.28 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3875,6 +3891,16 @@
 			(type default)
 		)
 		(uuid "c9ef31e9-626c-421e-9ed5-67e7ba9eb640")
+	)
+	(wire
+		(pts
+			(xy 81.28 53.34) (xy 81.28 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4ab335-185a-4cb0-8e36-2c6524ca3a21")
 	)
 	(wire
 		(pts
@@ -4466,7 +4492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Adjustable current limit high side switch IC, 2.8..5.5V, 0.2..1.7A"
+		(property "Description" "Adjustable current limit high side switch IC, active-low enable, output discharge, 2.8..5.5V, 0.2..1.7A, 89mOhm Ron, TSOP-6"
 			(at 129.54 120.904 0)
 			(effects
 				(font
@@ -7654,6 +7680,73 @@
 			(project "ZFTuner"
 				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
 					(reference "FB601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 81.28 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db3d8327-3e6a-49f1-afbf-61d0a0dd74f1")
+		(property "Reference" "#FLG0602"
+			(at 81.28 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf470ce2-9208-4df5-b6c6-da3311f9f1e8")
+		)
+		(instances
+			(project "ZFTuner"
+				(path "/fdb95973-bff7-44bf-8fa0-11fcc1e3382d/4f4b3f21-035d-41e9-bc50-b9de10321df3"
+					(reference "#FLG0602")
 					(unit 1)
 				)
 			)
