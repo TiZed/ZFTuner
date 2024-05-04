@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Direction_Coupler"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -148,7 +148,7 @@
 		(uuid "7ff97b85-fa83-421e-8ad1-328b1bd1e57f")
 	)
 	(fp_line
-		(start 11.1 -7.6)
+		(start 11.1 -6.65)
 		(end 11.1 -9.1)
 		(stroke
 			(width 0.12)
@@ -159,7 +159,7 @@
 	)
 	(fp_line
 		(start 11.1 -2.3)
-		(end 11.1 -5.4)
+		(end 11.1 -4.25)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -168,8 +168,8 @@
 		(uuid "3810478f-071d-4958-8739-2b9566d50a74")
 	)
 	(fp_line
-		(start 11.1 2.25)
-		(end 11.1 5.35)
+		(start 11.1 2.3)
+		(end 11.1 4.3)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -179,7 +179,7 @@
 	)
 	(fp_line
 		(start 11.1 9.1)
-		(end 11.1 7.6)
+		(end 11.1 6.65)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -318,7 +318,7 @@
 		(uuid "1d9367ba-a664-45cf-b918-518956252f3c")
 	)
 	(pad "5" smd roundrect
-		(at 11 6.5)
+		(at 11 5.5)
 		(size 4.1 1.74)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1640419948)
@@ -339,7 +339,7 @@
 		(uuid "4aa8689b-492c-454c-a5e5-8c8b7e9e879e")
 	)
 	(pad "8" smd roundrect
-		(at 11 -6.5)
+		(at 11 -5.5)
 		(size 4.1 1.74)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1640419948)
