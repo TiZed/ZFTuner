@@ -9,7 +9,7 @@
 	(paper "A5")
 	(title_block
 		(title "Directional Coupler")
-		(date "2024-03-22")
+		(date "2024-05-05")
 		(rev "A0")
 		(company "TiZed")
 		(comment 1 "Units: [mm]")
@@ -105,8 +105,8 @@
 				)
 			)
 		)
-		(property "Value" "Reverse"
-			(at 5.425 0.025 0)
+		(property "Value" "Reflected"
+			(at 6.1 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "1b41a8c8-0817-43c2-b3e9-c6b4f0a5d366")
@@ -2023,6 +2023,44 @@
 		(layer "Margin")
 		(uuid "cc05cee7-2f53-4c97-9759-2d0d5594a56a")
 	)
+	(gr_text "Rfl"
+		(at 107.75 57.7 0)
+		(layer "F.SilkS")
+		(uuid "4565cdd2-85de-465c-86da-e613900e6a55")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 92.35 55.55 0)
+		(layer "F.SilkS")
+		(uuid "50ff8c31-51f7-41ad-ac00-a527be71b6dd")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Fwd"
+		(at 88.3 54.25 0)
+		(layer "F.SilkS")
+		(uuid "79c28611-424e-453d-9d98-177fdef8bb9f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "<"
 		(at 90 42 0)
 		(layer "F.SilkS")
@@ -2031,6 +2069,32 @@
 			(font
 				(size 1 1)
 				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Out"
+		(at 107.35 42.2 0)
+		(layer "F.SilkS")
+		(uuid "e9baa21c-0d98-4e4f-942e-af8f10f6c18f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "In"
+		(at 88.25 45.7 0)
+		(layer "F.SilkS")
+		(uuid "ff1a1af4-a194-4047-8725-f8d1585dd072")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
