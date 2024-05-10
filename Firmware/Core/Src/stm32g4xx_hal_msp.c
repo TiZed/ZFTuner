@@ -72,6 +72,18 @@ void HAL_MspInit(void)
 
   /* System interrupt init*/
 
+  /** Configure the internal voltage reference buffer voltage scale
+  */
+  HAL_SYSCFG_VREFBUF_VoltageScalingConfig(SYSCFG_VREFBUF_VOLTAGE_SCALE0);
+
+  /** Enable the Internal Voltage Reference buffer
+  */
+  HAL_SYSCFG_EnableVREFBUF();
+
+  /** Configure the internal voltage reference buffer high impedance mode
+  */
+  HAL_SYSCFG_VREFBUF_HighImpedanceConfig(SYSCFG_VREFBUF_HIGH_IMPEDANCE_ENABLE);
+
   /** Disable the internal Pull-Up in Dead Battery pins of UCPD peripheral
   */
   HAL_PWREx_DisableUCPDDeadBattery();
@@ -114,7 +126,7 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
     PA0     ------> ADC1_IN1
     PA1     ------> ADC1_IN2
     */
-    GPIO_InitStruct.Pin = Fwd_V_Pin|Rfl_V_Pin;
+    GPIO_InitStruct.Pin = Rfl_V_Pin|Fwd_V_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
@@ -146,7 +158,7 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* hadc)
     PA0     ------> ADC1_IN1
     PA1     ------> ADC1_IN2
     */
-    HAL_GPIO_DeInit(GPIOA, Fwd_V_Pin|Rfl_V_Pin);
+    HAL_GPIO_DeInit(GPIOA, Rfl_V_Pin|Fwd_V_Pin);
 
   /* USER CODE BEGIN ADC1_MspDeInit 1 */
 

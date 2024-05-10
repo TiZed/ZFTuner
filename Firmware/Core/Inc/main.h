@@ -61,10 +61,10 @@ void Error_Handler(void);
 #define Op_LED_GPIO_Port GPIOC
 #define Error_LED_Pin GPIO_PIN_14
 #define Error_LED_GPIO_Port GPIOC
-#define Fwd_V_Pin GPIO_PIN_0
-#define Fwd_V_GPIO_Port GPIOA
-#define Rfl_V_Pin GPIO_PIN_1
+#define Rfl_V_Pin GPIO_PIN_0
 #define Rfl_V_GPIO_Port GPIOA
+#define Fwd_V_Pin GPIO_PIN_1
+#define Fwd_V_GPIO_Port GPIOA
 #define Relays_R4_Pin GPIO_PIN_2
 #define Relays_R4_GPIO_Port GPIOA
 #define Relays_S4_Pin GPIO_PIN_3
