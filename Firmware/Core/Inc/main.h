@@ -81,6 +81,7 @@ void Error_Handler(void);
 #define KEY_GPIO_Port GPIOB
 #define START_Pin GPIO_PIN_1
 #define START_GPIO_Port GPIOB
+#define START_EXTI_IRQn EXTI1_IRQn
 #define CapRels_1_Pin GPIO_PIN_11
 #define CapRels_1_GPIO_Port GPIOB
 #define CapRels_2_Pin GPIO_PIN_12

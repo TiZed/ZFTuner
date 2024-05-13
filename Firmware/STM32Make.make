@@ -64,12 +64,15 @@ C_SOURCES =  \
 /tools/STM32/STM32Cube_FW_G4_V1.5.2/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c \
 /tools/STM32/STM32Cube_FW_G4_V1.5.2/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c \
 /tools/STM32/STM32Cube_FW_G4_V1.5.2/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c \
+Core/Src/latching_relays.c \
+Core/Src/ltc5507.c \
 Core/Src/main.c \
 Core/Src/stm32g4xx_hal_msp.c \
 Core/Src/stm32g4xx_it.c \
 Core/Src/syscalls.c \
 Core/Src/sysmem.c \
 Core/Src/system_stm32g4xx.c \
+Core/Src/usb_redirect.c \
 USB_Device/App/usb_device.c \
 USB_Device/App/usbd_cdc_if.c \
 USB_Device/App/usbd_desc.c \
