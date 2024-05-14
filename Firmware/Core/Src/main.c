@@ -26,6 +26,7 @@
 #include "usbd_cdc_if.h"
 
 #include "latching_relays.h"
+#include "ltc5507.h"
 
 /* USER CODE END Includes */
 
@@ -113,6 +114,8 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
+  FDCAN_TxHeaderTypeDef can_header ;
+  FDCAN_FilterTypeDef can_filter ;
 
   /* USER CODE END 1 */
 
@@ -147,6 +150,7 @@ int main(void)
   HAL_GPIO_WritePin(Op_LED_GPIO_Port, Op_LED_Pin, GPIO_PIN_RESET) ;
   HAL_GPIO_WritePin(Error_LED_GPIO_Port, Error_LED_Pin, GPIO_PIN_SET) ;
 
+  // Turn off all relays signal
   GPIO_TypeDef * Relays_Port = Relays_R1_GPIO_Port ;
   uint16_t All_Relays = Relays_S1_Pin | Relays_R1_Pin | Relays_S2_Pin | Relays_S3_Pin | Relays_R3_Pin | Relays_S4_Pin | Relays_R4_Pin ; 
 
@@ -156,10 +160,21 @@ int main(void)
   Relays_Port->BRR = All_Relays ;
   Relays_Power_Port->BRR = All_Power ;
 
+  // Shutdown all devices 
   HAL_GPIO_WritePin(SWR_SHDN_GPIO_Port, SWR_SHDN_Pin, GPIO_PIN_SET) ; // Shutdown SWR meter
   HAL_GPIO_WritePin(CAN_STBY_GPIO_Port, CAN_STBY_Pin, GPIO_PIN_RESET) ; // Shutdown CAN transceiver 
 
   HAL_GPIO_WritePin(KEY_GPIO_Port, KEY_Pin, GPIO_PIN_RESET) ; // Disable KEY signal
+
+  can_filter.IdType = FDCAN_STANDARD_ID ; 
+  can_filter.FilterIndex = 0 ;
+  can_filter.FilterType = FDCAN_FILTER_MASK ;
+  can_filter.FilterConfig = FDCAN_FILTER_TO_RXFIFO0 ;
+  can_filter.FilterID1 = 0x11 ;
+  can_filter.FilterID1 = 0x11 ;
+
+  if(HAL_FDCAN_ConfigFilter(&hfdcan1, &can_filter) != HAL_OK) Error_Handler() ; 
+  
 
   uint32_t Caps[] = {12, 22, 47, 100, 220, 470, 100}  ; // pF
   uint32_t Inds[] = {505, 1000, 2200, 5000, 10000, 23000, 44700} ; // 0.1 nH
@@ -173,6 +188,13 @@ int main(void)
   HAL_GPIO_WritePin(Error_LED_GPIO_Port, Error_LED_Pin, GPIO_PIN_RESET) ;
   uint8_t fw_bank = getActiveBank() ;
   printf("Current FW bank: %d", fw_bank) ;
+
+  HAL_GPIO_WritePin(SWR_SHDN_GPIO_Port, SWR_SHDN_Pin, GPIO_PIN_RESET) ; // Enable SWR meter
+  HAL_GPIO_WritePin(CAN_STBY_GPIO_Port, CAN_STBY_Pin, GPIO_PIN_SET) ; // Enable CAN transceiver
+
+  // Start ADC cyclic conversion
+  HAL_TIM_Base_Init(&htim1) ;
+  HAL_ADC_Start_DMA(&hadc1, (uint32_t *) adc_data, 4) ;
 
   while (1)
   {
@@ -370,22 +392,22 @@ static void MX_FDCAN1_Init(void)
   /* USER CODE END FDCAN1_Init 1 */
   hfdcan1.Instance = FDCAN1;
   hfdcan1.Init.ClockDivider = FDCAN_CLOCK_DIV1;
-  hfdcan1.Init.FrameFormat = FDCAN_FRAME_CLASSIC;
+  hfdcan1.Init.FrameFormat = FDCAN_FRAME_FD_NO_BRS;
   hfdcan1.Init.Mode = FDCAN_MODE_NORMAL;
-  hfdcan1.Init.AutoRetransmission = DISABLE;
+  hfdcan1.Init.AutoRetransmission = ENABLE;
   hfdcan1.Init.TransmitPause = DISABLE;
   hfdcan1.Init.ProtocolException = DISABLE;
-  hfdcan1.Init.NominalPrescaler = 16;
-  hfdcan1.Init.NominalSyncJumpWidth = 1;
-  hfdcan1.Init.NominalTimeSeg1 = 2;
-  hfdcan1.Init.NominalTimeSeg2 = 2;
-  hfdcan1.Init.DataPrescaler = 1;
+  hfdcan1.Init.NominalPrescaler = 9;
+  hfdcan1.Init.NominalSyncJumpWidth = 13;
+  hfdcan1.Init.NominalTimeSeg1 = 21;
+  hfdcan1.Init.NominalTimeSeg2 = 10;
+  hfdcan1.Init.DataPrescaler = 25;
   hfdcan1.Init.DataSyncJumpWidth = 1;
-  hfdcan1.Init.DataTimeSeg1 = 1;
+  hfdcan1.Init.DataTimeSeg1 = 2;
   hfdcan1.Init.DataTimeSeg2 = 1;
-  hfdcan1.Init.StdFiltersNbr = 0;
+  hfdcan1.Init.StdFiltersNbr = 1;
   hfdcan1.Init.ExtFiltersNbr = 0;
-  hfdcan1.Init.TxFifoQueueMode = FDCAN_TX_FIFO_OPERATION;
+  hfdcan1.Init.TxFifoQueueMode = FDCAN_TX_QUEUE_OPERATION;
   if (HAL_FDCAN_Init(&hfdcan1) != HAL_OK)
   {
     Error_Handler();
@@ -593,6 +615,10 @@ void Error_Handler(void)
   /* USER CODE BEGIN Error_Handler_Debug */
   /* User can add his own implementation to report the HAL error return state */
   __disable_irq();
+
+  // Turn on Error LED
+  HAL_GPIO_WritePin(Error_LED_GPIO_Port, Error_LED_Pin, GPIO_PIN_SET) ;
+
   while (1)
   {
   }
