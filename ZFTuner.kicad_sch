@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "fdb95973-bff7-44bf-8fa0-11fcc1e3382d")
 	(paper "A4")
 	(title_block
@@ -14,7 +14,9 @@
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -43,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " ~"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,18 +82,6 @@
 				)
 			)
 			(symbol "Conn_Coaxial_0_1"
-				(arc
-					(start -1.778 -0.508)
-					(mid 0.2311 -1.8066)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -0.508 0)
@@ -104,12 +94,24 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
 					(stroke
-						(width 0)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -127,12 +129,12 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 1.778 0)
-					(mid 0.2099 1.8101)
-					(end -1.778 0.508)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -178,10 +180,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Screw_Terminal_01x03"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -258,20 +263,9 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
 					)
 					(stroke
 						(width 0.1524)
@@ -295,7 +289,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
 					)
 					(stroke
 						(width 0.1524)
@@ -307,7 +301,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
 					)
 					(stroke
 						(width 0.1524)
@@ -331,8 +325,19 @@
 				)
 				(polyline
 					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
 					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -353,7 +358,7 @@
 					)
 				)
 				(circle
-					(center 0 2.54)
+					(center 0 -2.54)
 					(radius 0.635)
 					(stroke
 						(width 0.1524)
@@ -418,10 +423,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -498,43 +506,9 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 0 -5.08)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
-						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
 					)
 					(stroke
 						(width 0.1524)
@@ -558,7 +532,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
 					)
 					(stroke
 						(width 0.1524)
@@ -570,7 +544,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
 					)
 					(stroke
 						(width 0.1524)
@@ -582,7 +556,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
 					)
 					(stroke
 						(width 0.1524)
@@ -606,8 +580,31 @@
 				)
 				(polyline
 					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
 					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -628,7 +625,18 @@
 					)
 				)
 				(circle
-					(center 0 2.54)
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.08)
 					(radius 0.635)
 					(stroke
 						(width 0.1524)
@@ -711,12 +719,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim yes)
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
@@ -813,12 +826,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -890,7 +908,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -902,7 +920,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -933,12 +951,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1029,12 +1052,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDD"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1136,12 +1164,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1232,6 +1265,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1932,7 +1966,6 @@
 	)
 	(label "TUNER_KEY"
 		(at 255.27 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1943,7 +1976,6 @@
 	)
 	(label "CapRels_2"
 		(at 119.38 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1954,7 +1986,6 @@
 	)
 	(label "CAN_H"
 		(at 72.39 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1965,7 +1996,6 @@
 	)
 	(label "RF_Out"
 		(at 170.18 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.0066 2.0066)
@@ -1976,7 +2006,6 @@
 	)
 	(label "CapRels_1"
 		(at 119.38 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1987,7 +2016,6 @@
 	)
 	(label "TUNER_START"
 		(at 255.27 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1998,7 +2026,6 @@
 	)
 	(label "CAN_L"
 		(at 72.39 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2009,7 +2036,6 @@
 	)
 	(label "TUNER_START"
 		(at 72.39 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2020,7 +2046,6 @@
 	)
 	(label "IndRels_1"
 		(at 119.38 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2031,7 +2056,6 @@
 	)
 	(label "RF_In"
 		(at 255.27 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.0066 2.0066)
@@ -2042,7 +2066,6 @@
 	)
 	(label "RF_Out"
 		(at 170.18 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.0066 2.0066)
@@ -2053,7 +2076,6 @@
 	)
 	(label "TUNER_KEY"
 		(at 72.39 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2064,7 +2086,6 @@
 	)
 	(label "RF_Out"
 		(at 255.27 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.0066 2.0066)
@@ -2075,7 +2096,6 @@
 	)
 	(label "CAN_L"
 		(at 255.27 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2086,7 +2106,6 @@
 	)
 	(label "CAN_H"
 		(at 255.27 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2097,7 +2116,6 @@
 	)
 	(label "RF_In"
 		(at 137.16 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.0066 2.0066)
@@ -2108,7 +2126,6 @@
 	)
 	(label "IndRels_2"
 		(at 119.38 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3470,6 +3487,10 @@
 	(sheet
 		(at 139.7 62.23)
 		(size 17.78 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3507,53 +3528,53 @@
 		)
 		(pin "RF_In" input
 			(at 139.7 72.39 180)
+			(uuid "61b352e4-8c47-4b8f-a9fd-a5e8570e6a90")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "61b352e4-8c47-4b8f-a9fd-a5e8570e6a90")
 		)
 		(pin "~{SHDN}" input
 			(at 139.7 64.77 180)
+			(uuid "6afa270a-a13a-41d7-bb56-59c6fb9b7b6b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6afa270a-a13a-41d7-bb56-59c6fb9b7b6b")
 		)
 		(pin "Fwd_V" output
 			(at 157.48 67.31 0)
+			(uuid "d087d7c9-b61c-460b-9938-a56c6abd9d03")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d087d7c9-b61c-460b-9938-a56c6abd9d03")
 		)
 		(pin "Rfl_V" output
 			(at 157.48 64.77 0)
+			(uuid "fa9325b6-1163-4415-85c9-167332b6ad0d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fa9325b6-1163-4415-85c9-167332b6ad0d")
 		)
 		(pin "RF_Out" output
 			(at 157.48 72.39 0)
+			(uuid "a101c6ee-4dc4-49f3-a79b-e0138d3f81cf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a101c6ee-4dc4-49f3-a79b-e0138d3f81cf")
 		)
 		(instances
 			(project "ZFTuner"
@@ -3566,6 +3587,10 @@
 	(sheet
 		(at 20.574 174.498)
 		(size 15.24 13.462)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3612,6 +3637,10 @@
 	(sheet
 		(at 139.7 93.98)
 		(size 27.94 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3649,53 +3678,53 @@
 		)
 		(pin "RF_Out" output
 			(at 167.64 109.22 0)
+			(uuid "92a2b0a6-d9be-4bb4-af8a-be521c9aeebf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "92a2b0a6-d9be-4bb4-af8a-be521c9aeebf")
 		)
 		(pin "RF_In" input
 			(at 139.7 109.22 180)
+			(uuid "db97e9e7-e4e7-460e-bb7b-75085db5642f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "db97e9e7-e4e7-460e-bb7b-75085db5642f")
 		)
 		(pin "IndRels_2" input
 			(at 139.7 102.87 180)
+			(uuid "a3482e75-556a-4b21-8c37-308dc1f51472")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a3482e75-556a-4b21-8c37-308dc1f51472")
 		)
 		(pin "IndRels_1" input
 			(at 139.7 100.33 180)
+			(uuid "236b11e3-7b05-4fcc-95ae-9fc6bc571df1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "236b11e3-7b05-4fcc-95ae-9fc6bc571df1")
 		)
 		(pin "{S[1..4] R[1..4]}" input
 			(at 139.7 96.52 180)
+			(uuid "f46c908b-5a02-4cbd-a5fd-71b45ea6b4cc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f46c908b-5a02-4cbd-a5fd-71b45ea6b4cc")
 		)
 		(instances
 			(project "ZFTuner"
@@ -3708,6 +3737,10 @@
 	(sheet
 		(at 76.2 44.958)
 		(size 38.1 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3745,93 +3778,93 @@
 		)
 		(pin "Fwd_V" input
 			(at 114.3 46.99 0)
+			(uuid "0fa54981-e969-4445-b457-692ed0ba2985")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0fa54981-e969-4445-b457-692ed0ba2985")
 		)
 		(pin "Rfl_V" input
 			(at 114.3 49.53 0)
+			(uuid "7ef310d3-71f0-4e29-b905-9e52cb9a6884")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7ef310d3-71f0-4e29-b905-9e52cb9a6884")
 		)
 		(pin "~{SWR_SHDN}" output
 			(at 114.3 53.34 0)
+			(uuid "59332b64-d1f4-4ca9-a384-428d18e7ada3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "59332b64-d1f4-4ca9-a384-428d18e7ada3")
 		)
 		(pin "TUNER_KEY" output
 			(at 76.2 48.26 180)
+			(uuid "91a08bb0-2c4f-48ce-b79a-608d2971dc23")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "91a08bb0-2c4f-48ce-b79a-608d2971dc23")
 		)
 		(pin "TUNER_START" input
 			(at 76.2 50.8 180)
+			(uuid "e6ad495a-b4bd-4d46-9692-e6b755f5aabb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e6ad495a-b4bd-4d46-9692-e6b755f5aabb")
 		)
 		(pin "CAN_H" bidirectional
 			(at 76.2 54.61 180)
+			(uuid "02e018e4-22da-4f01-bdf5-b35c2e059f14")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "02e018e4-22da-4f01-bdf5-b35c2e059f14")
 		)
 		(pin "CAN_L" bidirectional
 			(at 76.2 57.15 180)
+			(uuid "ddd981f8-a141-4237-ab54-110953dc7230")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ddd981f8-a141-4237-ab54-110953dc7230")
 		)
 		(pin "{CapRels_[1..2] IndRels_[1..2]}" output
 			(at 114.3 72.39 0)
+			(uuid "2f5787b8-8a0e-4856-bb26-bbf28d3cb53d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2f5787b8-8a0e-4856-bb26-bbf28d3cb53d")
 		)
 		(pin "{S[1..4] R[1..4]}" output
 			(at 114.3 69.85 0)
+			(uuid "8a89e4da-a33b-4f1b-a284-f91e997dcac2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8a89e4da-a33b-4f1b-a284-f91e997dcac2")
 		)
 		(instances
 			(project "ZFTuner"
@@ -3844,6 +3877,10 @@
 	(sheet
 		(at 139.7 120.65)
 		(size 27.94 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3881,53 +3918,53 @@
 		)
 		(pin "RF_In" passive
 			(at 139.7 135.89 180)
+			(uuid "760f1a98-8932-45fc-9ed7-be6ee967cbf1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "760f1a98-8932-45fc-9ed7-be6ee967cbf1")
 		)
 		(pin "RF_Out" passive
 			(at 167.64 135.89 0)
+			(uuid "8864f94d-26c0-4827-8aef-fedccfb4199e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8864f94d-26c0-4827-8aef-fedccfb4199e")
 		)
 		(pin "CapRels_2" input
 			(at 139.7 129.54 180)
+			(uuid "be00995f-8b2e-404e-8a4d-68b649363ff3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "be00995f-8b2e-404e-8a4d-68b649363ff3")
 		)
 		(pin "CapRels_1" input
 			(at 139.7 127 180)
+			(uuid "ae34da85-0bfa-4e23-a9fd-897bd2e07ed7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ae34da85-0bfa-4e23-a9fd-897bd2e07ed7")
 		)
 		(pin "{S[1..4] R[1..4]}" input
 			(at 139.7 123.19 180)
+			(uuid "763366f0-aa74-4b49-a6e2-6a930f6205b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "763366f0-aa74-4b49-a6e2-6a930f6205b4")
 		)
 		(instances
 			(project "ZFTuner"
@@ -3942,4 +3979,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

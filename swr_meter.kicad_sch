@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "c1e52ebd-9d8d-48af-80a4-7db23999a8bd")
 	(paper "A4")
 	(title_block
@@ -12,9 +12,13 @@
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -84,10 +88,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -96,10 +100,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -145,11 +149,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -267,6 +276,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "RF:LTC5507"
 			(exclude_from_sim no)
@@ -345,17 +355,53 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at 10.16 -2.54 180)
+				(pin passive line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "~{SHDN}"
+					(name "PCAP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "RF_{IN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "V_{CC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -399,53 +445,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "V_{CC}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "PCAP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
-					(at -10.16 -2.54 0)
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "RF_{IN}"
+					(name "~{SHDN}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -454,6 +464,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ZFTuner_Lib:Directional_Coupler"
 			(exclude_from_sim no)
@@ -521,6 +532,24 @@
 						)
 					)
 				)
+				(pin output line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "Forward"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at -3.81 -12.7 90)
 					(length 2.54)
@@ -550,42 +579,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -15.24 -5.08 0)
-					(length 2.54)
-					(name "Forward"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 -5.08 180)
-					(length 2.54)
-					(name "Reverse"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -647,12 +640,30 @@
 						)
 					)
 				)
+				(pin output line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "Reverse"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "Directional_Coupler_0_1"
-				(arc
-					(start -2.286 2.286)
-					(mid -2.5093 2.8247)
-					(end -3.048 3.048)
+				(polyline
+					(pts
+						(xy -6.35 3.556) (xy -6.35 3.556)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -663,7 +674,7 @@
 				)
 				(polyline
 					(pts
-						(xy -6.35 3.556) (xy -6.35 3.556)
+						(xy -5.334 3.81) (xy 5.334 3.81)
 					)
 					(stroke
 						(width 0)
@@ -685,10 +696,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.334 3.81) (xy 5.334 3.81)
-					)
+				(arc
+					(start -3.048 3.048)
+					(mid -2.5093 2.8247)
+					(end -2.286 2.286)
 					(stroke
 						(width 0)
 						(type default)
@@ -734,9 +745,9 @@
 					)
 				)
 				(arc
-					(start 3.0477 3.0483)
+					(start 2.2857 2.2863)
 					(mid 2.509 2.825)
-					(end 2.2857 2.2863)
+					(end 3.0477 3.0483)
 					(stroke
 						(width 0)
 						(type default)
@@ -759,12 +770,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -836,7 +852,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -848,7 +864,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -879,12 +895,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -975,7 +996,58 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Close to LTC5507s Vcc pins"
+		(exclude_from_sim no)
+		(at 229.87 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d56bb5f-4309-4afa-94f1-3817db3affd9")
+	)
+	(text_box "Attenuator -16dB 50ohm"
+		(exclude_from_sim no)
+		(at 151.892 96.012 0)
+		(size 12.192 7.874)
+		(margins 0.9 0.9 0.9 0.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left top)
+		)
+		(uuid "348ca61e-7516-4464-86cc-7c961f713eed")
+	)
+	(text_box "Directional Coupler \n1:10 -20dB "
+		(exclude_from_sim no)
+		(at 107.188 96.52 0)
+		(size 20.32 5.842)
+		(margins 0.9 0.9 0.9 0.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left top)
+		)
+		(uuid "cad37c6e-782c-4b3a-ac5f-fd82006bf28a")
 	)
 	(junction
 		(at 116.84 86.36)
@@ -1509,58 +1581,9 @@
 		)
 		(uuid "ff26df00-e3bc-4e6c-89f0-f8552078ac11")
 	)
-	(text_box "Attenuator -16dB 50ohm"
-		(exclude_from_sim no)
-		(at 151.892 96.012 0)
-		(size 12.192 7.874)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.2 1.2)
-			)
-			(justify left top)
-		)
-		(uuid "348ca61e-7516-4464-86cc-7c961f713eed")
-	)
-	(text_box "Directional Coupler \n1:10 -20dB "
-		(exclude_from_sim no)
-		(at 107.188 96.52 0)
-		(size 20.32 5.842)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.2 1.2)
-			)
-			(justify left top)
-		)
-		(uuid "cad37c6e-782c-4b3a-ac5f-fd82006bf28a")
-	)
-	(text "Close to LTC5507s Vcc pins"
-		(exclude_from_sim no)
-		(at 229.87 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7d56bb5f-4309-4afa-94f1-3817db3affd9")
-	)
 	(hierarchical_label "~{SHDN}"
 		(shape input)
 		(at 200.66 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1572,7 +1595,6 @@
 	(hierarchical_label "Fwd_V"
 		(shape output)
 		(at 200.66 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1584,7 +1606,6 @@
 	(hierarchical_label "~{SHDN}"
 		(shape input)
 		(at 200.66 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1596,7 +1617,6 @@
 	(hierarchical_label "RF_Out"
 		(shape output)
 		(at 134.62 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1608,7 +1628,6 @@
 	(hierarchical_label "Rfl_V"
 		(shape output)
 		(at 200.66 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1620,7 +1639,6 @@
 	(hierarchical_label "RF_In"
 		(shape input)
 		(at 99.06 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
